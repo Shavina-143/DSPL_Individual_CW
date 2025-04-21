@@ -1,0 +1,881 @@
+Iso3,StartDate,EndDate,Area Code,Area Code (M49),Area,Item Code,Item,Element Code,Element,Months Code,Months,Year Code,Year,Unit,Value,Flag,Note
+#country+code,#date+start,#date+end,,,#country+name,#indicator+code,#indicator+name,,,,,,#date+year,#indicator+type,#indicator+value+num,,
+LKA,2000-01-01,2000-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2000,2000,,18.927786,I,base year is 2015
+LKA,2001-01-01,2001-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2001,2001,,22.774871,I,base year is 2015
+LKA,2002-01-01,2002-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2002,2002,,25.301758,I,base year is 2015
+LKA,2003-01-01,2003-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2003,2003,,29.623325,I,base year is 2015
+LKA,2004-01-01,2004-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2004,2004,,29.812539,I,base year is 2015
+LKA,2005-01-01,2005-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2005,2005,,34.777004,I,base year is 2015
+LKA,2006-01-01,2006-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2006,2006,,37.943812,I,base year is 2015
+LKA,2007-01-01,2007-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2007,2007,,44.464208,I,base year is 2015
+LKA,2008-01-01,2008-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2008,2008,,56.289981,I,base year is 2015
+LKA,2009-01-01,2009-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2009,2009,,63.635476,I,base year is 2015
+LKA,2010-01-01,2010-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2010,2010,,69.253457,I,base year is 2015
+LKA,2011-01-01,2011-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2011,2011,,74.650477,I,base year is 2015
+LKA,2012-01-01,2012-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2012,2012,,78.124300,I,base year is 2015
+LKA,2013-01-01,2013-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2013,2013,,87.700150,I,base year is 2015
+LKA,2014-01-01,2014-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2014,2014,,90.655651,X,base year is 2015
+LKA,2015-01-01,2015-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2015,2015,,107.376783,X,base year is 2015
+LKA,2016-01-01,2016-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2016,2016,,102.857558,X,base year is 2015
+LKA,2017-01-01,2017-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2017,2017,,109.636395,X,base year is 2015
+LKA,2018-01-01,2018-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2018,2018,,119.488305,X,base year is 2015
+LKA,2019-01-01,2019-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2019,2019,,113.703697,X,base year is 2015
+LKA,2020-01-01,2020-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2020,2020,,129.249831,X,base year is 2015
+LKA,2021-01-01,2021-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2021,2021,,136.842129,X,base year is 2015
+LKA,2022-01-01,2022-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2022,2022,,170.192140,X,base year is 2015
+LKA,2023-01-01,2023-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2023,2023,,261.350463,X,base year is 2015
+LKA,2024-01-01,2024-01-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7001,January,2024,2024,,271.903274,X,base year is 2015
+LKA,2000-02-01,2000-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2000,2000,,19.215399,I,base year is 2015
+LKA,2001-02-01,2001-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2001,2001,,23.230983,I,base year is 2015
+LKA,2002-02-01,2002-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2002,2002,,25.696035,I,base year is 2015
+LKA,2003-02-01,2003-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2003,2003,,29.218189,I,base year is 2015
+LKA,2004-02-01,2004-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2004,2004,,29.544114,I,base year is 2015
+LKA,2005-02-01,2005-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2005,2005,,34.777004,I,base year is 2015
+LKA,2006-02-01,2006-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2006,2006,,38.365279,I,base year is 2015
+LKA,2007-02-01,2007-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2007,2007,,45.696794,I,base year is 2015
+LKA,2008-02-01,2008-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2008,2008,,58.286952,I,base year is 2015
+LKA,2009-02-01,2009-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2009,2009,,63.695400,I,base year is 2015
+LKA,2010-02-01,2010-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2010,2010,,69.679931,I,base year is 2015
+LKA,2011-02-01,2011-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2011,2011,,75.949640,I,base year is 2015
+LKA,2012-02-01,2012-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2012,2012,,78.498265,I,base year is 2015
+LKA,2013-02-01,2013-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2013,2013,,88.134261,I,base year is 2015
+LKA,2014-02-01,2014-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2014,2014,,90.203728,X,base year is 2015
+LKA,2015-02-01,2015-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2015,2015,,100.778714,X,base year is 2015
+LKA,2016-02-01,2016-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2016,2016,,100.146023,X,base year is 2015
+LKA,2017-02-01,2017-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2017,2017,,110.359471,X,base year is 2015
+LKA,2018-02-01,2018-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2018,2018,,114.426773,X,base year is 2015
+LKA,2019-02-01,2019-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2019,2019,,111.082547,X,base year is 2015
+LKA,2020-02-01,2020-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2020,2020,,129.159446,X,base year is 2015
+LKA,2021-02-01,2021-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2021,2021,,138.107512,X,base year is 2015
+LKA,2022-02-01,2022-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2022,2022,,171.876099,X,base year is 2015
+LKA,2023-02-01,2023-02-28,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2023,2023,,256.074058,X,base year is 2015
+LKA,2024-02-01,2024-02-29,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7002,February,2024,2024,,268.872148,X,base year is 2015
+LKA,2000-03-01,2000-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2000,2000,,19.398498,I,base year is 2015
+LKA,2001-03-01,2001-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2001,2001,,22.610169,I,base year is 2015
+LKA,2002-03-01,2002-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2002,2002,,25.839039,I,base year is 2015
+LKA,2003-03-01,2003-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2003,2003,,28.388061,I,base year is 2015
+LKA,2004-03-01,2004-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2004,2004,,29.251910,I,base year is 2015
+LKA,2005-03-01,2005-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2005,2005,,34.949633,I,base year is 2015
+LKA,2006-03-01,2006-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2006,2006,,38.365279,I,base year is 2015
+LKA,2007-03-01,2007-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2007,2007,,45.624113,I,base year is 2015
+LKA,2008-03-01,2008-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2008,2008,,59.408622,I,base year is 2015
+LKA,2009-03-01,2009-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2009,2009,,63.276155,I,base year is 2015
+LKA,2010-03-01,2010-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2010,2010,,68.888303,I,base year is 2015
+LKA,2011-03-01,2011-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2011,2011,,75.516113,I,base year is 2015
+LKA,2012-03-01,2012-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2012,2012,,80.623767,I,base year is 2015
+LKA,2013-03-01,2013-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2013,2013,,88.242853,I,base year is 2015
+LKA,2014-03-01,2014-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2014,2014,,90.474882,X,base year is 2015
+LKA,2015-03-01,2015-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2015,2015,,97.976795,X,base year is 2015
+LKA,2016-03-01,2016-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2016,2016,,98.428717,X,base year is 2015
+LKA,2017-03-01,2017-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2017,2017,,109.455626,X,base year is 2015
+LKA,2018-03-01,2018-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2018,2018,,112.347930,X,base year is 2015
+LKA,2019-03-01,2019-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2019,2019,,109.726780,X,base year is 2015
+LKA,2020-03-01,2020-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2020,2020,,125.182529,X,base year is 2015
+LKA,2021-03-01,2021-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2021,2021,,136.209437,X,base year is 2015
+LKA,2022-03-01,2022-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2022,2022,,176.142129,X,base year is 2015
+LKA,2023-03-01,2023-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2023,2023,,250.573125,X,base year is 2015
+LKA,2024-03-01,2024-03-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7003,March,2024,2024,,263.146686,X,base year is 2015
+LKA,2000-04-01,2000-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2000,2000,,19.671808,I,base year is 2015
+LKA,2001-04-01,2001-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2001,2001,,23.093868,I,base year is 2015
+LKA,2002-04-01,2002-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2002,2002,,25.470005,I,base year is 2015
+LKA,2003-04-01,2003-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2003,2003,,28.108532,I,base year is 2015
+LKA,2004-04-01,2004-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2004,2004,,29.726889,I,base year is 2015
+LKA,2005-04-01,2005-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2005,2005,,35.503132,I,base year is 2015
+LKA,2006-04-01,2006-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2006,2006,,39.069681,I,base year is 2015
+LKA,2007-04-01,2007-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2007,2007,,46.096936,I,base year is 2015
+LKA,2008-04-01,2008-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2008,2008,,60.771829,I,base year is 2015
+LKA,2009-04-01,2009-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2009,2009,,62.737901,I,base year is 2015
+LKA,2010-04-01,2010-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2010,2010,,68.037710,I,base year is 2015
+LKA,2011-04-01,2011-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2011,2011,,75.516113,I,base year is 2015
+LKA,2012-04-01,2012-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2012,2012,,81.250958,I,base year is 2015
+LKA,2013-04-01,2013-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2013,2013,,87.700150,I,base year is 2015
+LKA,2014-04-01,2014-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2014,2014,,92.011418,X,base year is 2015
+LKA,2015-04-01,2015-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2015,2015,,95.897951,X,base year is 2015
+LKA,2016-04-01,2016-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2016,2016,,100.597945,X,base year is 2015
+LKA,2017-04-01,2017-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2017,2017,,112.438314,X,base year is 2015
+LKA,2018-04-01,2018-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2018,2018,,112.076776,X,base year is 2015
+LKA,2019-04-01,2019-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2019,2019,,110.721009,X,base year is 2015
+LKA,2020-04-01,2020-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2020,2020,,124.278684,X,base year is 2015
+LKA,2021-04-01,2021-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2021,2021,,136.299822,X,base year is 2015
+LKA,2022-04-01,2022-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2022,2022,,197.696807,X,base year is 2015
+LKA,2023-04-01,2023-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2023,2023,,251.246708,X,base year is 2015
+LKA,2024-04-01,2024-04-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7004,April,2024,2024,,259.441976,X,base year is 2015
+LKA,2000-05-01,2000-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2000,2000,,19.876285,I,base year is 2015
+LKA,2001-05-01,2001-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2001,2001,,23.938127,I,base year is 2015
+LKA,2002-05-01,2002-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2002,2002,,26.924116,I,base year is 2015
+LKA,2003-05-01,2003-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2003,2003,,28.937119,I,base year is 2015
+LKA,2004-05-01,2004-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2004,2004,,31.074071,I,base year is 2015
+LKA,2005-05-01,2005-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2005,2005,,35.745806,I,base year is 2015
+LKA,2006-05-01,2006-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2006,2006,,39.882734,I,base year is 2015
+LKA,2007-05-01,2007-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2007,2007,,46.461275,I,base year is 2015
+LKA,2008-05-01,2008-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2008,2008,,61.783169,I,base year is 2015
+LKA,2009-05-01,2009-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2009,2009,,64.535461,I,base year is 2015
+LKA,2010-05-01,2010-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2010,2010,,69.070834,I,base year is 2015
+LKA,2011-05-01,2011-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2011,2011,,76.073592,I,base year is 2015
+LKA,2012-05-01,2012-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2012,2012,,82.696984,I,base year is 2015
+LKA,2013-05-01,2013-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2013,2013,,90.201819,I,base year is 2015
+LKA,2014-05-01,2014-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2014,2014,,93.728724,X,base year is 2015
+LKA,2015-05-01,2015-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2015,2015,,97.976795,X,base year is 2015
+LKA,2016-05-01,2016-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2016,2016,,102.676789,X,base year is 2015
+LKA,2017-05-01,2017-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2017,2017,,113.522928,X,base year is 2015
+LKA,2018-05-01,2018-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2018,2018,,113.522928,X,base year is 2015
+LKA,2019-05-01,2019-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2019,2019,,113.071006,X,base year is 2015
+LKA,2020-05-01,2020-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2020,2020,,125.634451,X,base year is 2015
+LKA,2021-05-01,2021-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2021,2021,,138.559434,X,base year is 2015
+LKA,2022-05-01,2022-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2022,2022,,219.251484,X,base year is 2015
+LKA,2023-05-01,2023-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2023,2023,,253.828779,X,base year is 2015
+LKA,2024-05-01,2024-05-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7005,May,2024,2024,,255.175946,X,base year is 2015
+LKA,2000-06-01,2000-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2000,2000,,20.738643,I,base year is 2015
+LKA,2001-06-01,2001-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2001,2001,,24.557477,I,base year is 2015
+LKA,2002-06-01,2002-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2002,2002,,27.844146,I,base year is 2015
+LKA,2003-06-01,2003-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2003,2003,,29.394251,I,base year is 2015
+LKA,2004-06-01,2004-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2004,2004,,31.871271,I,base year is 2015
+LKA,2005-06-01,2005-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2005,2005,,35.988793,I,base year is 2015
+LKA,2006-06-01,2006-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2006,2006,,40.734505,I,base year is 2015
+LKA,2007-06-01,2007-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2007,2007,,47.667434,I,base year is 2015
+LKA,2008-06-01,2008-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2008,2008,,64.956274,I,base year is 2015
+LKA,2009-06-01,2009-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2009,2009,,65.558333,I,base year is 2015
+LKA,2010-06-01,2010-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2010,2010,,69.740897,I,base year is 2015
+LKA,2011-06-01,2011-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2011,2011,,75.887679,I,base year is 2015
+LKA,2012-06-01,2012-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2012,2012,,84.653590,I,base year is 2015
+LKA,2013-06-01,2013-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2013,2013,,91.840493,I,base year is 2015
+LKA,2014-06-01,2014-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2014,2014,,96.349874,X,base year is 2015
+LKA,2015-06-01,2015-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2015,2015,,99.965254,X,base year is 2015
+LKA,2016-06-01,2016-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2016,2016,,107.557552,X,base year is 2015
+LKA,2017-06-01,2017-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2017,2017,,116.776770,X,base year is 2015
+LKA,2018-06-01,2018-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2018,2018,,117.409462,X,base year is 2015
+LKA,2019-06-01,2019-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2019,2019,,113.974851,X,base year is 2015
+LKA,2020-06-01,2020-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2020,2020,,129.430600,X,base year is 2015
+LKA,2021-06-01,2021-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2021,2021,,142.174814,X,base year is 2015
+LKA,2022-06-01,2022-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2022,2022,,250.124069,X,base year is 2015
+LKA,2023-06-01,2023-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2023,2023,,256.410850,X,base year is 2015
+LKA,2024-06-01,2024-06-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7006,June,2024,2024,,261.350463,X,base year is 2015
+LKA,2000-07-01,2000-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2000,2000,,20.799870,I,base year is 2015
+LKA,2001-07-01,2001-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2001,2001,,24.284552,I,base year is 2015
+LKA,2002-07-01,2002-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2002,2002,,27.562519,I,base year is 2015
+LKA,2003-07-01,2003-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2003,2003,,28.725868,I,base year is 2015
+LKA,2004-07-01,2004-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2004,2004,,31.902339,I,base year is 2015
+LKA,2005-07-01,2005-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2005,2005,,36.197316,I,base year is 2015
+LKA,2006-07-01,2006-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2006,2006,,40.698946,I,base year is 2015
+LKA,2007-07-01,2007-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2007,2007,,48.585074,I,base year is 2015
+LKA,2008-07-01,2008-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2008,2008,,65.136781,I,base year is 2015
+LKA,2009-07-01,2009-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2009,2009,,66.101086,I,base year is 2015
+LKA,2010-07-01,2010-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2010,2010,,69.740897,I,base year is 2015
+LKA,2011-07-01,2011-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2011,2011,,76.197581,I,base year is 2015
+LKA,2012-07-01,2012-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2012,2012,,85.603440,I,base year is 2015
+LKA,2013-07-01,2013-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2013,2013,,92.059405,I,base year is 2015
+LKA,2014-07-01,2014-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2014,2014,,97.886410,X,base year is 2015
+LKA,2015-07-01,2015-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2015,2015,,99.151793,X,base year is 2015
+LKA,2016-07-01,2016-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2016,2016,,105.840246,X,base year is 2015
+LKA,2017-07-01,2017-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2017,2017,,114.517158,X,base year is 2015
+LKA,2018-07-01,2018-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2018,2018,,117.228693,X,base year is 2015
+LKA,2019-07-01,2019-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2019,2019,,114.336389,X,base year is 2015
+LKA,2020-07-01,2020-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2020,2020,,129.069062,X,base year is 2015
+LKA,2021-07-01,2021-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2021,2021,,143.259428,X,base year is 2015
+LKA,2022-07-01,2022-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2022,2022,,262.024047,X,base year is 2015
+LKA,2023-07-01,2023-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2023,2023,,255.400474,X,base year is 2015
+LKA,2024-07-01,2024-07-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7007,July,2024,2024,,262.697631,X,base year is 2015
+LKA,2000-08-01,2000-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2000,2000,,20.697187,I,base year is 2015
+LKA,2001-08-01,2001-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2001,2001,,23.653369,I,base year is 2015
+LKA,2002-08-01,2002-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2002,2002,,26.632900,I,base year is 2015
+LKA,2003-08-01,2003-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2003,2003,,27.839969,I,base year is 2015
+LKA,2004-08-01,2004-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2004,2004,,31.476466,I,base year is 2015
+LKA,2005-08-01,2005-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2005,2005,,36.336458,I,base year is 2015
+LKA,2006-08-01,2006-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2006,2006,,40.876798,I,base year is 2015
+LKA,2007-08-01,2007-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2007,2007,,49.358446,I,base year is 2015
+LKA,2008-08-01,2008-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2008,2008,,65.016432,I,base year is 2015
+LKA,2009-08-01,2009-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2009,2009,,65.799452,I,base year is 2015
+LKA,2010-08-01,2010-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2010,2010,,69.862858,I,base year is 2015
+LKA,2011-08-01,2011-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2011,2011,,75.949640,I,base year is 2015
+LKA,2012-08-01,2012-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2012,2012,,84.969983,I,base year is 2015
+LKA,2013-08-01,2013-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2013,2013,,91.621680,I,base year is 2015
+LKA,2014-08-01,2014-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2014,2014,,95.988336,X,base year is 2015
+LKA,2015-08-01,2015-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2015,2015,,97.524872,X,base year is 2015
+LKA,2016-08-01,2016-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2016,2016,,101.592175,X,base year is 2015
+LKA,2017-08-01,2017-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2017,2017,,113.884466,X,base year is 2015
+LKA,2018-08-01,2018-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2018,2018,,113.884466,X,base year is 2015
+LKA,2019-08-01,2019-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2019,2019,,114.607542,X,base year is 2015
+LKA,2020-08-01,2020-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2020,2020,,129.701753,X,base year is 2015
+LKA,2021-08-01,2021-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2021,2021,,144.072888,X,base year is 2015
+LKA,2022-08-01,2022-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2022,2022,,266.626869,X,base year is 2015
+LKA,2023-08-01,2023-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2023,2023,,252.144820,X,base year is 2015
+LKA,2024-08-01,2024-08-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7008,August,2024,2024,,257.870281,X,base year is 2015
+LKA,2000-09-01,2000-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2000,2000,,20.337574,I,base year is 2015
+LKA,2001-09-01,2001-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2001,2001,,24.153389,I,base year is 2015
+LKA,2002-09-01,2002-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2002,2002,,26.376385,I,base year is 2015
+LKA,2003-09-01,2003-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2003,2003,,27.950679,I,base year is 2015
+LKA,2004-09-01,2004-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2004,2004,,31.998792,I,base year is 2015
+LKA,2005-09-01,2005-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2005,2005,,36.440881,I,base year is 2015
+LKA,2006-09-01,2006-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2006,2006,,41.482592,I,base year is 2015
+LKA,2007-09-01,2007-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2007,2007,,49.912269,I,base year is 2015
+LKA,2008-09-01,2008-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2008,2008,,65.136781,I,base year is 2015
+LKA,2009-09-01,2009-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2009,2009,,65.920074,I,base year is 2015
+LKA,2010-09-01,2010-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2010,2010,,70.595474,I,base year is 2015
+LKA,2011-09-01,2011-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2011,2011,,76.197581,I,base year is 2015
+LKA,2012-09-01,2012-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2012,2012,,84.843399,I,base year is 2015
+LKA,2013-09-01,2013-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2013,2013,,91.402966,I,base year is 2015
+LKA,2014-09-01,2014-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2014,2014,,95.988336,X,base year is 2015
+LKA,2015-09-01,2015-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2015,2015,,97.072950,X,base year is 2015
+LKA,2016-09-01,2016-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2016,2016,,101.772944,X,base year is 2015
+LKA,2017-09-01,2017-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2017,2017,,115.872925,X,base year is 2015
+LKA,2018-09-01,2018-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2018,2018,,110.992162,X,base year is 2015
+LKA,2019-09-01,2019-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2019,2019,,116.415232,X,base year is 2015
+LKA,2020-09-01,2020-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2020,2020,,131.147905,X,base year is 2015
+LKA,2021-09-01,2021-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2021,2021,,144.253657,X,base year is 2015
+LKA,2022-09-01,2022-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2022,2022,,266.177813,X,base year is 2015
+LKA,2023-09-01,2023-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2023,2023,,254.502363,X,base year is 2015
+LKA,2024-09-01,2024-09-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7009,September,2024,2024,,255.849530,X,base year is 2015
+LKA,2000-10-01,2000-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2000,2000,,20.533488,I,base year is 2015
+LKA,2001-10-01,2001-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2001,2001,,24.171682,I,base year is 2015
+LKA,2002-10-01,2002-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2002,2002,,26.627723,I,base year is 2015
+LKA,2003-10-01,2003-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2003,2003,,27.916204,I,base year is 2015
+LKA,2004-10-01,2004-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2004,2004,,32.156451,I,base year is 2015
+LKA,2005-10-01,2005-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2005,2005,,36.824251,I,base year is 2015
+LKA,2006-10-01,2006-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2006,2006,,42.161649,I,base year is 2015
+LKA,2007-10-01,2007-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2007,2007,,51.803967,I,base year is 2015
+LKA,2008-10-01,2008-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2008,2008,,64.896126,I,base year is 2015
+LKA,2009-10-01,2009-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2009,2009,,66.161444,I,base year is 2015
+LKA,2010-10-01,2010-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2010,2010,,71.513277,I,base year is 2015
+LKA,2011-10-01,2011-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2011,2011,,76.073592,I,base year is 2015
+LKA,2012-10-01,2012-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2012,2012,,84.527096,I,base year is 2015
+LKA,2013-10-01,2013-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2013,2013,,91.621680,I,base year is 2015
+LKA,2014-10-01,2014-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2014,2014,,96.259489,X,base year is 2015
+LKA,2015-10-01,2015-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2015,2015,,98.428717,X,base year is 2015
+LKA,2016-10-01,2016-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2016,2016,,103.580634,X,base year is 2015
+LKA,2017-10-01,2017-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2017,2017,,118.765229,X,base year is 2015
+LKA,2018-10-01,2018-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2018,2018,,110.901778,X,base year is 2015
+LKA,2019-10-01,2019-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2019,2019,,119.036383,X,base year is 2015
+LKA,2020-10-01,2020-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2020,2020,,131.599828,X,base year is 2015
+LKA,2021-10-01,2021-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2021,2021,,146.965192,X,base year is 2015
+LKA,2022-10-01,2022-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2022,2022,,265.504229,X,base year is 2015
+LKA,2023-10-01,2023-10-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7010,October,2023,2023,,251.583500,X,base year is 2015
+LKA,2000-11-01,2000-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2000,2000,,20.675478,I,base year is 2015
+LKA,2001-11-01,2001-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2001,2001,,24.529955,I,base year is 2015
+LKA,2002-11-01,2002-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2002,2002,,27.300160,I,base year is 2015
+LKA,2003-11-01,2003-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2003,2003,,28.807811,I,base year is 2015
+LKA,2004-11-01,2004-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2004,2004,,33.522448,I,base year is 2015
+LKA,2005-11-01,2005-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2005,2005,,37.243340,I,base year is 2015
+LKA,2006-11-01,2006-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2006,2006,,43.022380,I,base year is 2015
+LKA,2007-11-01,2007-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2007,2007,,53.521546,I,base year is 2015
+LKA,2008-11-01,2008-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2008,2008,,64.415325,I,base year is 2015
+LKA,2009-11-01,2009-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2009,2009,,66.765601,I,base year is 2015
+LKA,2010-11-01,2010-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2010,2010,,72.494739,I,base year is 2015
+LKA,2011-11-01,2011-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2011,2011,,76.756009,I,base year is 2015
+LKA,2012-11-01,2012-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2012,2012,,85.857073,I,base year is 2015
+LKA,2013-11-01,2013-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2013,2013,,91.840493,I,base year is 2015
+LKA,2014-11-01,2014-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2014,2014,,98.699871,X,base year is 2015
+LKA,2015-11-01,2015-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2015,2015,,103.219096,X,base year is 2015
+LKA,2016-11-01,2016-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2016,2016,,104.755632,X,base year is 2015
+LKA,2017-11-01,2017-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2017,2017,,121.205611,X,base year is 2015
+LKA,2018-11-01,2018-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2018,2018,,116.505617,X,base year is 2015
+LKA,2019-11-01,2019-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2019,2019,,121.205611,X,base year is 2015
+LKA,2020-11-01,2020-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2020,2020,,132.594057,X,base year is 2015
+LKA,2021-11-01,2021-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2021,2021,,155.009413,X,base year is 2015
+LKA,2022-11-01,2022-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2022,2022,,261.799519,X,base year is 2015
+LKA,2023-11-01,2023-11-30,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7011,November,2023,2023,,256.074058,X,base year is 2015
+LKA,2000-12-01,2000-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2000,2000,,21.729320,I,base year is 2015
+LKA,2001-12-01,2001-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2001,2001,,24.666605,I,base year is 2015
+LKA,2002-12-01,2002-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2002,2002,,28.148283,I,base year is 2015
+LKA,2003-12-01,2003-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2003,2003,,29.901411,I,base year is 2015
+LKA,2004-12-01,2004-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2004,2004,,35.076827,I,base year is 2015
+LKA,2005-12-01,2005-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2005,2005,,37.488223,I,base year is 2015
+LKA,2006-12-01,2006-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2006,2006,,43.814269,I,base year is 2015
+LKA,2007-12-01,2007-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2007,2007,,54.158980,I,base year is 2015
+LKA,2008-12-01,2008-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2008,2008,,63.695400,I,base year is 2015
+LKA,2009-12-01,2009-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2009,2009,,67.673785,I,base year is 2015
+LKA,2010-12-01,2010-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2010,2010,,73.417157,I,base year is 2015
+LKA,2011-12-01,2011-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2011,2011,,77.875179,I,base year is 2015
+LKA,2012-12-01,2012-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2012,2012,,86.809460,I,base year is 2015
+LKA,2013-12-01,2013-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2013,2013,,91.840493,I,base year is 2015
+LKA,2014-12-01,2014-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2014,2014,,102.676789,X,base year is 2015
+LKA,2015-12-01,2015-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2015,2015,,105.297939,X,base year is 2015
+LKA,2016-12-01,2016-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2016,2016,,107.738321,X,base year is 2015
+LKA,2017-12-01,2017-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2017,2017,,121.476764,X,base year is 2015
+LKA,2018-12-01,2018-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2018,2018,,116.053694,X,base year is 2015
+LKA,2019-12-01,2019-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2019,2019,,126.086374,X,base year is 2015
+LKA,2020-12-01,2020-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2020,2020,,135.486361,X,base year is 2015
+LKA,2021-12-01,2021-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2021,2021,,164.590169,X,base year is 2015
+LKA,2022-12-01,2022-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2022,2022,,260.901407,X,base year is 2015
+LKA,2023-12-01,2023-12-31,38,'144,Sri Lanka,23013,"Consumer Prices, Food Indices (2015 = 100)",6125,Value,7012,December,2023,2023,,265.167437,X,base year is 2015
+LKA,2000-01-01,2000-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2000,2000,,26.333727,X,base year is 2015
+LKA,2001-01-01,2001-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2001,2001,,30.592003,X,base year is 2015
+LKA,2002-01-01,2002-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2002,2002,,33.313844,X,base year is 2015
+LKA,2003-01-01,2003-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2003,2003,,37.853161,X,base year is 2015
+LKA,2004-01-01,2004-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2004,2004,,38.048906,X,base year is 2015
+LKA,2005-01-01,2005-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2005,2005,,43.105394,X,base year is 2015
+LKA,2006-01-01,2006-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2006,2006,,46.258602,X,base year is 2015
+LKA,2007-01-01,2007-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2007,2007,,52.599668,X,base year is 2015
+LKA,2008-01-01,2008-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2008,2008,,63.672624,X,base year is 2015
+LKA,2009-01-01,2009-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2009,2009,,70.324187,X,base year is 2015
+LKA,2010-01-01,2010-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2010,2010,,75.312860,X,base year is 2015
+LKA,2011-01-01,2011-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2011,2011,,80.033324,X,base year is 2015
+LKA,2012-01-01,2012-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2012,2012,,83.037256,X,base year is 2015
+LKA,2013-01-01,2013-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2013,2013,,91.190785,X,base year is 2015
+LKA,2014-01-01,2014-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2014,2014,,94.206111,X,base year is 2015
+LKA,2015-01-01,2015-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2015,2015,,103.069344,X,base year is 2015
+LKA,2016-01-01,2016-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2016,2016,,102.338355,X,base year is 2015
+LKA,2017-01-01,2017-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2017,2017,,109.008623,X,base year is 2015
+LKA,2018-01-01,2018-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2018,2018,,114.947903,X,base year is 2015
+LKA,2019-01-01,2019-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2019,2019,,116.318506,X,base year is 2015
+LKA,2020-01-01,2020-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2020,2020,,125.181738,X,base year is 2015
+LKA,2021-01-01,2021-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2021,2021,,129.841789,X,base year is 2015
+LKA,2022-01-01,2022-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2022,2022,,151.683782,X,base year is 2015
+LKA,2023-01-01,2023-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2023,2023,,232.420557,X,base year is 2015
+LKA,2024-01-01,2024-01-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7001,January,2024,2024,,247.623487,X,base year is 2015
+LKA,2000-02-01,2000-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2000,2000,,26.657417,X,base year is 2015
+LKA,2001-02-01,2001-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2001,2001,,31.087380,X,base year is 2015
+LKA,2002-02-01,2002-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2002,2002,,33.733766,X,base year is 2015
+LKA,2003-02-01,2003-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2003,2003,,37.433238,X,base year is 2015
+LKA,2004-02-01,2004-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2004,2004,,37.771145,X,base year is 2015
+LKA,2005-02-01,2005-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2005,2005,,43.105394,X,base year is 2015
+LKA,2006-02-01,2006-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2006,2006,,46.674409,X,base year is 2015
+LKA,2007-02-01,2007-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2007,2007,,53.777790,X,base year is 2015
+LKA,2008-02-01,2008-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2008,2008,,65.496440,X,base year is 2015
+LKA,2009-02-01,2009-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2009,2009,,70.377829,X,base year is 2015
+LKA,2010-02-01,2010-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2010,2010,,75.688351,X,base year is 2015
+LKA,2011-02-01,2011-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2011,2011,,81.159798,X,base year is 2015
+LKA,2012-02-01,2012-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2012,2012,,83.359105,X,base year is 2015
+LKA,2013-02-01,2013-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2013,2013,,91.556279,X,base year is 2015
+LKA,2014-02-01,2014-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2014,2014,,94.114738,X,base year is 2015
+LKA,2015-02-01,2015-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2015,2015,,99.505776,X,base year is 2015
+LKA,2016-02-01,2016-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2016,2016,,101.241873,X,base year is 2015
+LKA,2017-02-01,2017-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2017,2017,,109.556864,X,base year is 2015
+LKA,2018-02-01,2018-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2018,2018,,113.029059,X,base year is 2015
+LKA,2019-02-01,2019-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2019,2019,,115.770265,X,base year is 2015
+LKA,2020-02-01,2020-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2020,2020,,125.181738,X,base year is 2015
+LKA,2021-02-01,2021-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2021,2021,,130.481403,X,base year is 2015
+LKA,2022-02-01,2022-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2022,2022,,153.065867,X,base year is 2015
+LKA,2023-02-01,2023-02-28,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2023,2023,,235.069552,X,base year is 2015
+LKA,2024-02-01,2024-02-29,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7002,February,2024,2024,,247.047618,X,base year is 2015
+LKA,2000-03-01,2000-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2000,2000,,26.863004,X,base year is 2015
+LKA,2001-03-01,2001-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2001,2001,,30.412661,X,base year is 2015
+LKA,2002-03-01,2002-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2002,2002,,33.885769,X,base year is 2015
+LKA,2003-03-01,2003-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2003,2003,,36.569336,X,base year is 2015
+LKA,2004-03-01,2004-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2004,2004,,37.468232,X,base year is 2015
+LKA,2005-03-01,2005-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2005,2005,,43.278647,X,base year is 2015
+LKA,2006-03-01,2006-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2006,2006,,46.674409,X,base year is 2015
+LKA,2007-03-01,2007-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2007,2007,,53.708489,X,base year is 2015
+LKA,2008-03-01,2008-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2008,2008,,66.515631,X,base year is 2015
+LKA,2009-03-01,2009-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2009,2009,,70.002338,X,base year is 2015
+LKA,2010-03-01,2010-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2010,2010,,74.991010,X,base year is 2015
+LKA,2011-03-01,2011-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2011,2011,,80.784307,X,base year is 2015
+LKA,2012-03-01,2012-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2012,2012,,85.182921,X,base year is 2015
+LKA,2013-03-01,2013-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2013,2013,,91.647652,X,base year is 2015
+LKA,2014-03-01,2014-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2014,2014,,94.297485,X,base year is 2015
+LKA,2015-03-01,2015-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2015,2015,,98.317920,X,base year is 2015
+LKA,2016-03-01,2016-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2016,2016,,100.510885,X,base year is 2015
+LKA,2017-03-01,2017-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2017,2017,,109.191370,X,base year is 2015
+LKA,2018-03-01,2018-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2018,2018,,112.206697,X,base year is 2015
+LKA,2019-03-01,2019-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2019,2019,,115.496144,X,base year is 2015
+LKA,2020-03-01,2020-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2020,2020,,123.537015,X,base year is 2015
+LKA,2021-03-01,2021-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2021,2021,,129.841789,X,base year is 2015
+LKA,2022-03-01,2022-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2022,2022,,158.133511,X,base year is 2015
+LKA,2023-03-01,2023-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2023,2023,,235.875768,X,base year is 2015
+LKA,2024-03-01,2024-03-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7003,March,2024,2024,,241.864801,X,base year is 2015
+LKA,2000-04-01,2000-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2000,2000,,27.169198,X,base year is 2015
+LKA,2001-04-01,2001-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2001,2001,,30.938657,X,base year is 2015
+LKA,2002-04-01,2002-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2002,2002,,33.493185,X,base year is 2015
+LKA,2003-04-01,2003-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2003,2003,,36.277358,X,base year is 2015
+LKA,2004-04-01,2004-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2004,2004,,37.960329,X,base year is 2015
+LKA,2005-04-01,2005-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2005,2005,,43.833057,X,base year is 2015
+LKA,2006-04-01,2006-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2006,2006,,47.367422,X,base year is 2015
+LKA,2007-04-01,2007-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2007,2007,,54.158947,X,base year is 2015
+LKA,2008-04-01,2008-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2008,2008,,67.749389,X,base year is 2015
+LKA,2009-04-01,2009-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2009,2009,,69.519563,X,base year is 2015
+LKA,2010-04-01,2010-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2010,2010,,74.240027,X,base year is 2015
+LKA,2011-04-01,2011-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2011,2011,,80.784307,X,base year is 2015
+LKA,2012-04-01,2012-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2012,2012,,85.719338,X,base year is 2015
+LKA,2013-04-01,2013-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2013,2013,,91.190785,X,base year is 2015
+LKA,2014-04-01,2014-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2014,2014,,95.119846,X,base year is 2015
+LKA,2015-04-01,2015-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2015,2015,,97.769679,X,base year is 2015
+LKA,2016-04-01,2016-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2016,2016,,101.972861,X,base year is 2015
+LKA,2017-04-01,2017-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2017,2017,,110.561973,X,base year is 2015
+LKA,2018-04-01,2018-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2018,2018,,112.298070,X,base year is 2015
+LKA,2019-04-01,2019-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2019,2019,,116.318506,X,base year is 2015
+LKA,2020-04-01,2020-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2020,2020,,123.171521,X,base year is 2015
+LKA,2021-04-01,2021-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2021,2021,,129.933162,X,base year is 2015
+LKA,2022-04-01,2022-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2022,2022,,174.718525,X,base year is 2015
+LKA,2023-04-01,2023-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2023,2023,,233.457120,X,base year is 2015
+LKA,2024-04-01,2024-04-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7004,April,2024,2024,,239.791674,X,base year is 2015
+LKA,2000-05-01,2000-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2000,2000,,27.397749,X,base year is 2015
+LKA,2001-05-01,2001-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2001,2001,,31.851770,X,base year is 2015
+LKA,2002-05-01,2002-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2002,2002,,35.033994,X,base year is 2015
+LKA,2003-05-01,2003-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2003,2003,,37.141261,X,base year is 2015
+LKA,2004-05-01,2004-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2004,2004,,39.348041,X,base year is 2015
+LKA,2005-05-01,2005-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2005,2005,,44.075611,X,base year is 2015
+LKA,2006-05-01,2006-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2006,2006,,48.164387,X,base year is 2015
+LKA,2007-05-01,2007-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2007,2007,,54.505454,X,base year is 2015
+LKA,2008-05-01,2008-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2008,2008,,68.661297,X,base year is 2015
+LKA,2009-05-01,2009-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2009,2009,,71.128812,X,base year is 2015
+LKA,2010-05-01,2010-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2010,2010,,75.151935,X,base year is 2015
+LKA,2011-05-01,2011-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2011,2011,,81.267082,X,base year is 2015
+LKA,2012-05-01,2012-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2012,2012,,86.953095,X,base year is 2015
+LKA,2013-05-01,2013-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2013,2013,,93.292376,X,base year is 2015
+LKA,2014-05-01,2014-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2014,2014,,95.850835,X,base year is 2015
+LKA,2015-05-01,2015-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2015,2015,,98.683414,X,base year is 2015
+LKA,2016-05-01,2016-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2016,2016,,103.891706,X,base year is 2015
+LKA,2017-05-01,2017-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2017,2017,,111.292962,X,base year is 2015
+LKA,2018-05-01,2018-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2018,2018,,113.577300,X,base year is 2015
+LKA,2019-05-01,2019-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2019,2019,,117.597735,X,base year is 2015
+LKA,2020-05-01,2020-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2020,2020,,123.719762,X,base year is 2015
+LKA,2021-05-01,2021-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2021,2021,,131.212391,X,base year is 2015
+LKA,2022-05-01,2022-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2022,2022,,191.533888,X,base year is 2015
+LKA,2023-05-01,2023-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2023,2023,,233.917815,X,base year is 2015
+LKA,2024-05-01,2024-05-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7005,May,2024,2024,,237.603374,X,base year is 2015
+LKA,2000-06-01,2000-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2000,2000,,28.356791,X,base year is 2015
+LKA,2001-06-01,2001-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2001,2001,,32.517741,X,base year is 2015
+LKA,2002-06-01,2002-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2002,2002,,36.000691,X,base year is 2015
+LKA,2003-06-01,2003-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2003,2003,,37.615861,X,base year is 2015
+LKA,2004-06-01,2004-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2004,2004,,40.163828,X,base year is 2015
+LKA,2005-06-01,2005-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2005,2005,,44.318166,X,base year is 2015
+LKA,2006-06-01,2006-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2006,2006,,48.996002,X,base year is 2015
+LKA,2007-06-01,2007-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2007,2007,,55.648925,X,base year is 2015
+LKA,2008-06-01,2008-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2008,2008,,71.504303,X,base year is 2015
+LKA,2009-06-01,2009-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2009,2009,,72.040720,X,base year is 2015
+LKA,2010-06-01,2010-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2010,2010,,75.741993,X,base year is 2015
+LKA,2011-06-01,2011-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2011,2011,,81.106157,X,base year is 2015
+LKA,2012-06-01,2012-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2012,2012,,88.615986,X,base year is 2015
+LKA,2013-06-01,2013-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2013,2013,,94.662979,X,base year is 2015
+LKA,2014-06-01,2014-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2014,2014,,97.038691,X,base year is 2015
+LKA,2015-06-01,2015-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2015,2015,,99.688523,X,base year is 2015
+LKA,2016-06-01,2016-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2016,2016,,106.084670,X,base year is 2015
+LKA,2017-06-01,2017-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2017,2017,,112.754938,X,base year is 2015
+LKA,2018-06-01,2018-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2018,2018,,115.587518,X,base year is 2015
+LKA,2019-06-01,2019-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2019,2019,,118.054603,X,base year is 2015
+LKA,2020-06-01,2020-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2020,2020,,125.455859,X,base year is 2015
+LKA,2021-06-01,2021-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2021,2021,,133.131236,X,base year is 2015
+LKA,2022-06-01,2022-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2022,2022,,211.343767,X,base year is 2015
+LKA,2023-06-01,2023-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2023,2023,,234.148162,X,base year is 2015
+LKA,2024-06-01,2024-06-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7006,June,2024,2024,,239.676501,X,base year is 2015
+LKA,2000-07-01,2000-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2000,2000,,28.424591,X,base year is 2015
+LKA,2001-07-01,2001-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2001,2001,,32.224670,X,base year is 2015
+LKA,2002-07-01,2002-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2002,2002,,35.705433,X,base year is 2015
+LKA,2003-07-01,2003-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2003,2003,,36.921458,X,base year is 2015
+LKA,2004-07-01,2004-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2004,2004,,40.195541,X,base year is 2015
+LKA,2005-07-01,2005-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2005,2005,,44.526070,X,base year is 2015
+LKA,2006-07-01,2006-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2006,2006,,48.961351,X,base year is 2015
+LKA,2007-07-01,2007-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2007,2007,,56.515191,X,base year is 2015
+LKA,2008-07-01,2008-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2008,2008,,71.665228,X,base year is 2015
+LKA,2009-07-01,2009-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2009,2009,,72.523495,X,base year is 2015
+LKA,2010-07-01,2010-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2010,2010,,75.741993,X,base year is 2015
+LKA,2011-07-01,2011-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2011,2011,,81.374365,X,base year is 2015
+LKA,2012-07-01,2012-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2012,2012,,89.420611,X,base year is 2015
+LKA,2013-07-01,2013-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2013,2013,,94.845726,X,base year is 2015
+LKA,2014-07-01,2014-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2014,2014,,97.769679,X,base year is 2015
+LKA,2015-07-01,2015-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2015,2015,,99.505776,X,base year is 2015
+LKA,2016-07-01,2016-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2016,2016,,105.262308,X,base year is 2015
+LKA,2017-07-01,2017-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2017,2017,,111.841203,X,base year is 2015
+LKA,2018-07-01,2018-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2018,2018,,115.678891,X,base year is 2015
+LKA,2019-07-01,2019-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2019,2019,,118.237350,X,base year is 2015
+LKA,2020-07-01,2020-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2020,2020,,125.455859,X,base year is 2015
+LKA,2021-07-01,2021-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2021,2021,,133.953597,X,base year is 2015
+LKA,2022-07-01,2022-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2022,2022,,222.400443,X,base year is 2015
+LKA,2023-07-01,2023-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2023,2023,,232.535730,X,base year is 2015
+LKA,2024-07-01,2024-07-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7007,July,2024,2024,,238.294416,X,base year is 2015
+LKA,2000-08-01,2000-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2000,2000,,28.310862,X,base year is 2015
+LKA,2001-08-01,2001-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2001,2001,,31.544483,X,base year is 2015
+LKA,2002-08-01,2002-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2002,2002,,34.726707,X,base year is 2015
+LKA,2003-08-01,2003-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2003,2003,,35.996317,X,base year is 2015
+LKA,2004-08-01,2004-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2004,2004,,39.760308,X,base year is 2015
+LKA,2005-08-01,2005-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2005,2005,,44.664672,X,base year is 2015
+LKA,2006-08-01,2006-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2006,2006,,49.134605,X,base year is 2015
+LKA,2007-08-01,2007-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2007,2007,,57.242854,X,base year is 2015
+LKA,2008-08-01,2008-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2008,2008,,71.557945,X,base year is 2015
+LKA,2009-08-01,2009-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2009,2009,,72.255286,X,base year is 2015
+LKA,2010-08-01,2010-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2010,2010,,75.849276,X,base year is 2015
+LKA,2011-08-01,2011-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2011,2011,,81.159798,X,base year is 2015
+LKA,2012-08-01,2012-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2012,2012,,88.884194,X,base year is 2015
+LKA,2013-08-01,2013-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2013,2013,,94.480232,X,base year is 2015
+LKA,2014-08-01,2014-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2014,2014,,97.221438,X,base year is 2015
+LKA,2015-08-01,2015-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2015,2015,,99.048908,X,base year is 2015
+LKA,2016-08-01,2016-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2016,2016,,103.526211,X,base year is 2015
+LKA,2017-08-01,2017-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2017,2017,,111.749829,X,base year is 2015
+LKA,2018-08-01,2018-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2018,2018,,114.582409,X,base year is 2015
+LKA,2019-08-01,2019-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2019,2019,,118.511471,X,base year is 2015
+LKA,2020-08-01,2020-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2020,2020,,125.912727,X,base year is 2015
+LKA,2021-08-01,2021-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2021,2021,,134.410465,X,base year is 2015
+LKA,2022-08-01,2022-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2022,2022,,227.698434,X,base year is 2015
+LKA,2023-08-01,2023-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2023,2023,,232.535730,X,base year is 2015
+LKA,2024-08-01,2024-08-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7008,August,2024,2024,,235.069552,X,base year is 2015
+LKA,2000-09-01,2000-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2000,2000,,27.911717,X,base year is 2015
+LKA,2001-09-01,2001-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2001,2001,,32.083602,X,base year is 2015
+LKA,2002-09-01,2002-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2002,2002,,34.455508,X,base year is 2015
+LKA,2003-09-01,2003-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2003,2003,,36.112233,X,base year is 2015
+LKA,2004-09-01,2004-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2004,2004,,40.293960,X,base year is 2015
+LKA,2005-09-01,2005-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2005,2005,,44.768624,X,base year is 2015
+LKA,2006-09-01,2006-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2006,2006,,49.723665,X,base year is 2015
+LKA,2007-09-01,2007-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2007,2007,,57.762613,X,base year is 2015
+LKA,2008-09-01,2008-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2008,2008,,71.665228,X,base year is 2015
+LKA,2009-09-01,2009-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2009,2009,,72.362570,X,base year is 2015
+LKA,2010-09-01,2010-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2010,2010,,76.492976,X,base year is 2015
+LKA,2011-09-01,2011-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2011,2011,,81.374365,X,base year is 2015
+LKA,2012-09-01,2012-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2012,2012,,88.776911,X,base year is 2015
+LKA,2013-09-01,2013-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2013,2013,,94.297485,X,base year is 2015
+LKA,2014-09-01,2014-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2014,2014,,97.221438,X,base year is 2015
+LKA,2015-09-01,2015-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2015,2015,,99.048908,X,base year is 2015
+LKA,2016-09-01,2016-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2016,2016,,103.708958,X,base year is 2015
+LKA,2017-09-01,2017-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2017,2017,,112.663565,X,base year is 2015
+LKA,2018-09-01,2018-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2018,2018,,113.668673,X,base year is 2015
+LKA,2019-09-01,2019-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2019,2019,,119.333832,X,base year is 2015
+LKA,2020-09-01,2020-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2020,2020,,126.917835,X,base year is 2015
+LKA,2021-09-01,2021-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2021,2021,,134.775959,X,base year is 2015
+LKA,2022-09-01,2022-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2022,2022,,232.535730,X,base year is 2015
+LKA,2023-09-01,2023-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2023,2023,,234.378510,X,base year is 2015
+LKA,2024-09-01,2024-09-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7009,September,2024,2024,,233.917815,X,base year is 2015
+LKA,2000-10-01,2000-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2000,2000,,28.129333,X,base year is 2015
+LKA,2001-10-01,2001-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2001,2001,,32.103286,X,base year is 2015
+LKA,2002-10-01,2002-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2002,2002,,34.721240,X,base year is 2015
+LKA,2003-10-01,2003-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2003,2003,,36.076146,X,base year is 2015
+LKA,2004-10-01,2004-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2004,2004,,40.454711,X,base year is 2015
+LKA,2005-10-01,2005-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2005,2005,,45.149781,X,base year is 2015
+LKA,2006-10-01,2006-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2006,2006,,50.382028,X,base year is 2015
+LKA,2007-10-01,2007-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2007,2007,,59.529796,X,base year is 2015
+LKA,2008-10-01,2008-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2008,2008,,71.450662,X,base year is 2015
+LKA,2009-10-01,2009-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2009,2009,,72.577136,X,base year is 2015
+LKA,2010-10-01,2010-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2010,2010,,77.297600,X,base year is 2015
+LKA,2011-10-01,2011-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2011,2011,,81.267082,X,base year is 2015
+LKA,2012-10-01,2012-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2012,2012,,88.508703,X,base year is 2015
+LKA,2013-10-01,2013-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2013,2013,,94.480232,X,base year is 2015
+LKA,2014-10-01,2014-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2014,2014,,96.855944,X,base year is 2015
+LKA,2015-10-01,2015-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2015,2015,,99.779897,X,base year is 2015
+LKA,2016-10-01,2016-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2016,2016,,104.805441,X,base year is 2015
+LKA,2017-10-01,2017-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2017,2017,,114.034168,X,base year is 2015
+LKA,2018-10-01,2018-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2018,2018,,114.125541,X,base year is 2015
+LKA,2019-10-01,2019-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2019,2019,,120.521688,X,base year is 2015
+LKA,2020-10-01,2020-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2020,2020,,127.100583,X,base year is 2015
+LKA,2021-10-01,2021-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2021,2021,,137.608539,X,base year is 2015
+LKA,2022-10-01,2022-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2022,2022,,232.190209,X,base year is 2015
+LKA,2023-10-01,2023-10-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7010,October,2023,2023,,234.493683,X,base year is 2015
+LKA,2000-11-01,2000-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2000,2000,,28.286804,X,base year is 2015
+LKA,2001-11-01,2001-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2001,2001,,32.488215,X,base year is 2015
+LKA,2002-11-01,2002-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2002,2002,,35.429859,X,base year is 2015
+LKA,2003-11-01,2003-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2003,2003,,37.006755,X,base year is 2015
+LKA,2004-11-01,2004-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2004,2004,,41.841330,X,base year is 2015
+LKA,2005-11-01,2005-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2005,2005,,45.565589,X,base year is 2015
+LKA,2006-11-01,2006-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2006,2006,,51.213643,X,base year is 2015
+LKA,2007-11-01,2007-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2007,2007,,61.123725,X,base year is 2015
+LKA,2008-11-01,2008-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2008,2008,,71.021529,X,base year is 2015
+LKA,2009-11-01,2009-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2009,2009,,73.113553,X,base year is 2015
+LKA,2010-11-01,2010-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2010,2010,,78.155867,X,base year is 2015
+LKA,2011-11-01,2011-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2011,2011,,81.857140,X,base year is 2015
+LKA,2012-11-01,2012-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2012,2012,,89.635177,X,base year is 2015
+LKA,2013-11-01,2013-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2013,2013,,94.662979,X,base year is 2015
+LKA,2014-11-01,2014-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2014,2014,,97.678305,X,base year is 2015
+LKA,2015-11-01,2015-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2015,2015,,102.338355,X,base year is 2015
+LKA,2016-11-01,2016-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2016,2016,,106.541538,X,base year is 2015
+LKA,2017-11-01,2017-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2017,2017,,115.496144,X,base year is 2015
+LKA,2018-11-01,2018-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2018,2018,,116.684000,X,base year is 2015
+LKA,2019-11-01,2019-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2019,2019,,121.435424,X,base year is 2015
+LKA,2020-11-01,2020-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2020,2020,,127.740197,X,base year is 2015
+LKA,2021-11-01,2021-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2021,2021,,141.903095,X,base year is 2015
+LKA,2022-11-01,2022-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2022,2022,,230.692951,X,base year is 2015
+LKA,2023-11-01,2023-11-30,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7011,November,2023,2023,,237.257853,X,base year is 2015
+LKA,2000-12-01,2000-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2000,2000,,29.449245,X,base year is 2015
+LKA,2001-12-01,2001-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2001,2001,,32.634750,X,base year is 2015
+LKA,2002-12-01,2002-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2002,2002,,36.318913,X,base year is 2015
+LKA,2003-12-01,2003-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2003,2003,,38.140764,X,base year is 2015
+LKA,2004-12-01,2004-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2004,2004,,43.406197,X,base year is 2015
+LKA,2005-12-01,2005-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2005,2005,,45.808143,X,base year is 2015
+LKA,2006-12-01,2006-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2006,2006,,51.975957,X,base year is 2015
+LKA,2007-12-01,2007-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2007,2007,,61.712786,X,base year is 2015
+LKA,2008-12-01,2008-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2008,2008,,70.377829,X,base year is 2015
+LKA,2009-12-01,2009-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2009,2009,,73.918177,X,base year is 2015
+LKA,2010-12-01,2010-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2010,2010,,78.960491,X,base year is 2015
+LKA,2011-12-01,2011-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2011,2011,,82.822689,X,base year is 2015
+LKA,2012-12-01,2012-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2012,2012,,90.439802,X,base year is 2015
+LKA,2013-12-01,2013-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2013,2013,,94.662979,X,base year is 2015
+LKA,2014-12-01,2014-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2014,2014,,99.231655,X,base year is 2015
+LKA,2015-12-01,2015-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2015,2015,,103.434838,X,base year is 2015
+LKA,2016-12-01,2016-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2016,2016,,107.820767,X,base year is 2015
+LKA,2017-12-01,2017-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2017,2017,,115.678891,X,base year is 2015
+LKA,2018-12-01,2018-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2018,2018,,116.135759,X,base year is 2015
+LKA,2019-12-01,2019-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2019,2019,,123.354268,X,base year is 2015
+LKA,2020-12-01,2020-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2020,2020,,129.019427,X,base year is 2015
+LKA,2021-12-01,2021-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2021,2021,,147.111386,X,base year is 2015
+LKA,2022-12-01,2022-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2022,2022,,230.808125,X,base year is 2015
+LKA,2023-12-01,2023-12-31,38,'144,Sri Lanka,23012,"Consumer Prices, General Indices (2015 = 100)",6125,Value,7012,December,2023,2023,,240.482717,X,base year is 2015
+LKA,2001-01-01,2001-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2001,2001,%,20.325061,E,
+LKA,2002-01-01,2002-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2002,2002,%,11.095067,E,
+LKA,2003-01-01,2003-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2003,2003,%,17.080107,E,
+LKA,2004-01-01,2004-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2004,2004,%,0.638732,E,
+LKA,2005-01-01,2005-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2005,2005,%,16.652272,E,
+LKA,2006-01-01,2006-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2006,2006,%,9.106039,E,
+LKA,2007-01-01,2007-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2007,2007,%,17.184348,E,
+LKA,2008-01-01,2008-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2008,2008,%,26.596162,E,
+LKA,2009-01-01,2009-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2009,2009,%,13.049382,E,
+LKA,2010-01-01,2010-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2010,2010,%,8.828379,E,
+LKA,2011-01-01,2011-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2011,2011,%,7.793142,E,
+LKA,2012-01-01,2012-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2012,2012,%,4.653450,E,
+LKA,2013-01-01,2013-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2013,2013,%,12.257198,E,
+LKA,2014-01-01,2014-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2014,2014,%,3.370006,E,
+LKA,2015-01-01,2015-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2015,2015,%,18.444666,E,
+LKA,2016-01-01,2016-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2016,2016,%,-4.208754,E,
+LKA,2017-01-01,2017-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2017,2017,%,6.590510,E,
+LKA,2018-01-01,2018-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2018,2018,%,8.985985,E,
+LKA,2019-01-01,2019-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2019,2019,%,-4.841150,E,
+LKA,2020-01-01,2020-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2020,2020,%,13.672496,E,
+LKA,2021-01-01,2021-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2021,2021,%,5.874126,E,
+LKA,2022-01-01,2022-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2022,2022,%,24.371158,E,
+LKA,2023-01-01,2023-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2023,2023,%,53.562005,E,
+LKA,2024-01-01,2024-01-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7001,January,2024,2024,%,4.037801,E,
+LKA,2001-02-01,2001-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2001,2001,%,20.897738,E,
+LKA,2002-02-01,2002-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2002,2002,%,10.611054,E,
+LKA,2003-02-01,2003-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2003,2003,%,13.706994,E,
+LKA,2004-02-01,2004-02-29,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2004,2004,%,1.115487,E,
+LKA,2005-02-01,2005-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2005,2005,%,17.712124,E,
+LKA,2006-02-01,2006-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2006,2006,%,10.317955,E,
+LKA,2007-02-01,2007-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2007,2007,%,19.109765,E,
+LKA,2008-02-01,2008-02-29,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2008,2008,%,27.551512,E,
+LKA,2009-02-01,2009-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2009,2009,%,9.279002,E,
+LKA,2010-02-01,2010-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2010,2010,%,9.395547,E,
+LKA,2011-02-01,2011-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2011,2011,%,8.997869,E,
+LKA,2012-02-01,2012-02-29,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2012,2012,%,3.355677,E,
+LKA,2013-02-01,2013-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2013,2013,%,12.275426,E,
+LKA,2014-02-01,2014-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2014,2014,%,2.348084,E,
+LKA,2015-02-01,2015-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2015,2015,%,11.723447,E,
+LKA,2016-02-01,2016-02-29,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2016,2016,%,-0.627803,E,
+LKA,2017-02-01,2017-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2017,2017,%,10.198556,E,
+LKA,2018-02-01,2018-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2018,2018,%,3.685504,E,
+LKA,2019-02-01,2019-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2019,2019,%,-2.922591,E,
+LKA,2020-02-01,2020-02-29,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2020,2020,%,16.273393,E,
+LKA,2021-02-01,2021-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2021,2021,%,6.927922,E,
+LKA,2022-02-01,2022-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2022,2022,%,24.450942,E,
+LKA,2023-02-01,2023-02-28,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2023,2023,%,48.987590,E,
+LKA,2024-02-01,2024-02-29,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7002,February,2024,2024,%,4.997808,E,
+LKA,2001-03-01,2001-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2001,2001,%,16.556287,E,
+LKA,2002-03-01,2002-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2002,2002,%,14.280612,E,
+LKA,2003-03-01,2003-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2003,2003,%,9.865003,E,
+LKA,2004-03-01,2004-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2004,2004,%,3.042998,E,
+LKA,2005-03-01,2005-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2005,2005,%,19.478124,E,
+LKA,2006-03-01,2006-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2006,2006,%,9.773055,E,
+LKA,2007-03-01,2007-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2007,2007,%,18.920318,E,
+LKA,2008-03-01,2008-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2008,2008,%,30.213211,E,
+LKA,2009-03-01,2009-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2009,2009,%,6.510054,E,
+LKA,2010-03-01,2010-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2010,2010,%,8.869294,E,
+LKA,2011-03-01,2011-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2011,2011,%,9.621096,E,
+LKA,2012-03-01,2012-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2012,2012,%,6.763660,E,
+LKA,2013-03-01,2013-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2013,2013,%,9.450174,E,
+LKA,2014-03-01,2014-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2014,2014,%,2.529416,E,
+LKA,2015-03-01,2015-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2015,2015,%,8.291708,E,
+LKA,2016-03-01,2016-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2016,2016,%,0.461255,E,
+LKA,2017-03-01,2017-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2017,2017,%,11.202938,E,
+LKA,2018-03-01,2018-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2018,2018,%,2.642444,E,
+LKA,2019-03-01,2019-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2019,2019,%,-2.333065,E,
+LKA,2020-03-01,2020-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2020,2020,%,14.085667,E,
+LKA,2021-03-01,2021-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2021,2021,%,8.808664,E,
+LKA,2022-03-01,2022-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2022,2022,%,29.317126,E,
+LKA,2023-03-01,2023-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2023,2023,%,42.256214,E,
+LKA,2024-03-01,2024-03-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7003,March,2024,2024,%,5.017921,E,
+LKA,2001-04-01,2001-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2001,2001,%,17.395761,E,
+LKA,2002-04-01,2002-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2002,2002,%,10.289040,E,
+LKA,2003-04-01,2003-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2003,2003,%,10.359349,E,
+LKA,2004-04-01,2004-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2004,2004,%,5.757528,E,
+LKA,2005-04-01,2005-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2005,2005,%,19.431039,E,
+LKA,2006-04-01,2006-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2006,2006,%,10.045731,E,
+LKA,2007-04-01,2007-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2007,2007,%,17.986466,E,
+LKA,2008-04-01,2008-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2008,2008,%,31.834854,E,
+LKA,2009-04-01,2009-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2009,2009,%,3.235171,E,
+LKA,2010-04-01,2010-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2010,2010,%,8.447539,E,
+LKA,2011-04-01,2011-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2011,2011,%,10.991557,E,
+LKA,2012-04-01,2012-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2012,2012,%,7.594200,E,
+LKA,2013-04-01,2013-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2013,2013,%,7.937374,E,
+LKA,2014-04-01,2014-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2014,2014,%,4.915919,E,
+LKA,2015-04-01,2015-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2015,2015,%,4.223969,E,
+LKA,2016-04-01,2016-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2016,2016,%,4.901037,E,
+LKA,2017-04-01,2017-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2017,2017,%,11.769991,E,
+LKA,2018-04-01,2018-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2018,2018,%,-0.321543,E,
+LKA,2019-04-01,2019-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2019,2019,%,-1.209677,E,
+LKA,2020-04-01,2020-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2020,2020,%,12.244898,E,
+LKA,2021-04-01,2021-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2021,2021,%,9.672727,E,
+LKA,2022-04-01,2022-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2022,2022,%,45.045536,E,
+LKA,2023-04-01,2023-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2023,2023,%,27.086882,E,
+LKA,2024-04-01,2024-04-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7004,April,2024,2024,%,3.261841,E,
+LKA,2001-05-01,2001-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2001,2001,%,20.435617,E,
+LKA,2002-05-01,2002-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2002,2002,%,12.473780,E,
+LKA,2003-05-01,2003-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2003,2003,%,7.476579,E,
+LKA,2004-05-01,2004-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2004,2004,%,7.384811,E,
+LKA,2005-05-01,2005-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2005,2005,%,15.034191,E,
+LKA,2006-05-01,2006-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2006,2006,%,11.573184,E,
+LKA,2007-05-01,2007-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2007,2007,%,16.494710,E,
+LKA,2008-05-01,2008-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2008,2008,%,32.977774,E,
+LKA,2009-05-01,2009-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2009,2009,%,4.454760,E,
+LKA,2010-05-01,2010-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2010,2010,%,7.027722,E,
+LKA,2011-05-01,2011-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2011,2011,%,10.138516,E,
+LKA,2012-05-01,2012-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2012,2012,%,8.706560,E,
+LKA,2013-05-01,2013-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2013,2013,%,9.075100,E,
+LKA,2014-05-01,2014-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2014,2014,%,3.910015,E,
+LKA,2015-05-01,2015-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2015,2015,%,4.532305,E,
+LKA,2016-05-01,2016-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2016,2016,%,4.797048,E,
+LKA,2017-05-01,2017-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2017,2017,%,10.563380,E,
+LKA,2018-05-01,2018-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2018,2018,%,0.000000,E,
+LKA,2019-05-01,2019-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2019,2019,%,-0.398089,E,
+LKA,2020-05-01,2020-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2020,2020,%,11.111111,E,
+LKA,2021-05-01,2021-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2021,2021,%,10.287770,E,
+LKA,2022-05-01,2022-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2022,2022,%,58.236417,E,
+LKA,2023-05-01,2023-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2023,2023,%,15.770609,E,
+LKA,2024-05-01,2024-05-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7005,May,2024,2024,%,0.530739,E,
+LKA,2001-06-01,2001-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2001,2001,%,18.414096,E,
+LKA,2002-06-01,2002-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2002,2002,%,13.383576,E,
+LKA,2003-06-01,2003-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2003,2003,%,5.567077,E,
+LKA,2004-06-01,2004-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2004,2004,%,8.426888,E,
+LKA,2005-06-01,2005-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2005,2005,%,12.919226,E,
+LKA,2006-06-01,2006-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2006,2006,%,13.186639,E,
+LKA,2007-06-01,2007-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2007,2007,%,17.019796,E,
+LKA,2008-06-01,2008-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2008,2008,%,36.269708,E,
+LKA,2009-06-01,2009-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2009,2009,%,0.926869,E,
+LKA,2010-06-01,2010-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2010,2010,%,6.379911,E,
+LKA,2011-06-01,2011-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2011,2011,%,8.813742,E,
+LKA,2012-06-01,2012-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2012,2012,%,11.551165,E,
+LKA,2013-06-01,2013-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2013,2013,%,8.489778,E,
+LKA,2014-06-01,2014-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2014,2014,%,4.910014,E,
+LKA,2015-06-01,2015-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2015,2015,%,3.752345,E,
+LKA,2016-06-01,2016-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2016,2016,%,7.594937,E,
+LKA,2017-06-01,2017-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2017,2017,%,8.571429,E,
+LKA,2018-06-01,2018-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2018,2018,%,0.541796,E,
+LKA,2019-06-01,2019-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2019,2019,%,-2.925327,E,
+LKA,2020-06-01,2020-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2020,2020,%,13.560666,E,
+LKA,2021-06-01,2021-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2021,2021,%,9.846369,E,
+LKA,2022-06-01,2022-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2022,2022,%,75.927129,E,
+LKA,2023-06-01,2023-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2023,2023,%,2.513465,E,
+LKA,2024-06-01,2024-06-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7006,June,2024,2024,%,1.926445,E,
+LKA,2001-07-01,2001-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2001,2001,%,16.753383,E,
+LKA,2002-07-01,2002-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2002,2002,%,13.498157,E,
+LKA,2003-07-01,2003-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2003,2003,%,4.220764,E,
+LKA,2004-07-01,2004-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2004,2004,%,11.057875,E,
+LKA,2005-07-01,2005-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2005,2005,%,13.462890,E,
+LKA,2006-07-01,2006-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2006,2006,%,12.436366,E,
+LKA,2007-07-01,2007-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2007,2007,%,19.376737,E,
+LKA,2008-07-01,2008-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2008,2008,%,34.067473,E,
+LKA,2009-07-01,2009-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2009,2009,%,1.480431,E,
+LKA,2010-07-01,2010-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2010,2010,%,5.506431,E,
+LKA,2011-07-01,2011-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2011,2011,%,9.258104,E,
+LKA,2012-07-01,2012-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2012,2012,%,12.344038,E,
+LKA,2013-07-01,2013-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2013,2013,%,7.541712,E,
+LKA,2014-07-01,2014-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2014,2014,%,6.329615,E,
+LKA,2015-07-01,2015-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2015,2015,%,1.292705,E,
+LKA,2016-07-01,2016-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2016,2016,%,6.745670,E,
+LKA,2017-07-01,2017-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2017,2017,%,8.198121,E,
+LKA,2018-07-01,2018-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2018,2018,%,2.367798,E,
+LKA,2019-07-01,2019-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2019,2019,%,-2.467232,E,
+LKA,2020-07-01,2020-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2020,2020,%,12.885375,E,
+LKA,2021-07-01,2021-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2021,2021,%,10.994398,E,
+LKA,2022-07-01,2022-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2022,2022,%,82.901782,E,
+LKA,2023-07-01,2023-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2023,2023,%,-2.527849,E,
+LKA,2024-07-01,2024-07-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7007,July,2024,2024,%,2.857143,E,
+LKA,2001-08-01,2001-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2001,2001,%,14.283015,E,
+LKA,2002-08-01,2002-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2002,2002,%,12.596644,E,
+LKA,2003-08-01,2003-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2003,2003,%,4.532250,E,
+LKA,2004-08-01,2004-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2004,2004,%,13.062143,E,
+LKA,2005-08-01,2005-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2005,2005,%,15.440080,E,
+LKA,2006-08-01,2006-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2006,2006,%,12.495275,E,
+LKA,2007-08-01,2007-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2007,2007,%,20.749296,E,
+LKA,2008-08-01,2008-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2008,2008,%,31.723014,E,
+LKA,2009-08-01,2009-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2009,2009,%,1.204341,E,
+LKA,2010-08-01,2010-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2010,2010,%,6.175441,E,
+LKA,2011-08-01,2011-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2011,2011,%,8.712473,E,
+LKA,2012-08-01,2012-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2012,2012,%,11.876742,E,
+LKA,2013-08-01,2013-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2013,2013,%,7.828290,E,
+LKA,2014-08-01,2014-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2014,2014,%,4.765964,E,
+LKA,2015-08-01,2015-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2015,2015,%,1.600753,E,
+LKA,2016-08-01,2016-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2016,2016,%,4.170528,E,
+LKA,2017-08-01,2017-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2017,2017,%,12.099644,E,
+LKA,2018-08-01,2018-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2018,2018,%,0.000000,E,
+LKA,2019-08-01,2019-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2019,2019,%,0.634921,E,
+LKA,2020-08-01,2020-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2020,2020,%,13.170347,E,
+LKA,2021-08-01,2021-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2021,2021,%,11.080139,E,
+LKA,2022-08-01,2022-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2022,2022,%,85.063874,E,
+LKA,2023-08-01,2023-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2023,2023,%,-5.431579,E,
+LKA,2024-08-01,2024-08-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7008,August,2024,2024,%,2.270703,E,
+LKA,2001-09-01,2001-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2001,2001,%,18.762390,E,
+LKA,2002-09-01,2002-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2002,2002,%,9.203661,E,
+LKA,2003-09-01,2003-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2003,2003,%,5.968576,E,
+LKA,2004-09-01,2004-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2004,2004,%,14.483057,E,
+LKA,2005-09-01,2005-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2005,2005,%,13.882052,E,
+LKA,2006-09-01,2006-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2006,2006,%,13.835316,E,
+LKA,2007-09-01,2007-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2007,2007,%,20.320998,E,
+LKA,2008-09-01,2008-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2008,2008,%,30.502545,E,
+LKA,2009-09-01,2009-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2009,2009,%,1.202536,E,
+LKA,2010-09-01,2010-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2010,2010,%,7.092529,E,
+LKA,2011-09-01,2011-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2011,2011,%,7.935505,E,
+LKA,2012-09-01,2012-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2012,2012,%,11.346578,E,
+LKA,2013-09-01,2013-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2013,2013,%,7.731381,E,
+LKA,2014-09-01,2014-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2014,2014,%,5.016654,E,
+LKA,2015-09-01,2015-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2015,2015,%,1.129944,E,
+LKA,2016-09-01,2016-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2016,2016,%,4.841713,E,
+LKA,2017-09-01,2017-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2017,2017,%,13.854352,E,
+LKA,2018-09-01,2018-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2018,2018,%,-4.212168,E,
+LKA,2019-09-01,2019-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2019,2019,%,4.885993,E,
+LKA,2020-09-01,2020-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2020,2020,%,12.655280,E,
+LKA,2021-09-01,2021-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2021,2021,%,9.993108,E,
+LKA,2022-09-01,2022-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2022,2022,%,84.520668,E,
+LKA,2023-09-01,2023-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2023,2023,%,-4.386335,E,
+LKA,2024-09-01,2024-09-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7009,September,2024,2024,%,0.529334,E,
+LKA,2001-10-01,2001-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2001,2001,%,17.718344,E,
+LKA,2002-10-01,2002-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2002,2002,%,10.160820,E,
+LKA,2003-10-01,2003-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2003,2003,%,4.838868,E,
+LKA,2004-10-01,2004-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2004,2004,%,15.189196,E,
+LKA,2005-10-01,2005-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2005,2005,%,14.515906,E,
+LKA,2006-10-01,2006-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2006,2006,%,14.494245,E,
+LKA,2007-10-01,2007-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2007,2007,%,22.869879,E,
+LKA,2008-10-01,2008-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2008,2008,%,25.272503,E,
+LKA,2009-10-01,2009-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2009,2009,%,1.949759,E,
+LKA,2010-10-01,2010-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2010,2010,%,8.089051,E,
+LKA,2011-10-01,2011-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2011,2011,%,6.376878,E,
+LKA,2012-10-01,2012-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2012,2012,%,11.112272,E,
+LKA,2013-10-01,2013-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2013,2013,%,8.393265,E,
+LKA,2014-10-01,2014-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2014,2014,%,5.061913,E,
+LKA,2015-10-01,2015-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2015,2015,%,2.253521,E,
+LKA,2016-10-01,2016-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2016,2016,%,5.234160,E,
+LKA,2017-10-01,2017-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2017,2017,%,14.659686,E,
+LKA,2018-10-01,2018-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2018,2018,%,-6.621005,E,
+LKA,2019-10-01,2019-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2019,2019,%,7.334963,E,
+LKA,2020-10-01,2020-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2020,2020,%,10.554290,E,
+LKA,2021-10-01,2021-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2021,2021,%,11.675824,E,
+LKA,2022-10-01,2022-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2022,2022,%,80.657899,E,
+LKA,2023-10-01,2023-10-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7010,October,2023,2023,%,-5.243129,E,
+LKA,2001-11-01,2001-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2001,2001,%,18.642748,E,
+LKA,2002-11-01,2002-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2002,2002,%,11.293153,E,
+LKA,2003-11-01,2003-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2003,2003,%,5.522499,E,
+LKA,2004-11-01,2004-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2004,2004,%,16.365828,E,
+LKA,2005-11-01,2005-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2005,2005,%,11.099701,E,
+LKA,2006-11-01,2006-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2006,2006,%,15.516977,E,
+LKA,2007-11-01,2007-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2007,2007,%,24.403963,E,
+LKA,2008-11-01,2008-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2008,2008,%,20.354006,E,
+LKA,2009-11-01,2009-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2009,2009,%,3.648630,E,
+LKA,2010-11-01,2010-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2010,2010,%,8.580972,E,
+LKA,2011-11-01,2011-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2011,2011,%,5.878041,E,
+LKA,2012-11-01,2012-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2012,2012,%,11.857135,E,
+LKA,2013-11-01,2013-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2013,2013,%,6.969047,E,
+LKA,2014-11-01,2014-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2014,2014,%,7.468795,E,
+LKA,2015-11-01,2015-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2015,2015,%,4.578755,E,
+LKA,2016-11-01,2016-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2016,2016,%,1.488616,E,
+LKA,2017-11-01,2017-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2017,2017,%,15.703192,E,
+LKA,2018-11-01,2018-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2018,2018,%,-3.877703,E,
+LKA,2019-11-01,2019-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2019,2019,%,4.034135,E,
+LKA,2020-11-01,2020-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2020,2020,%,9.395973,E,
+LKA,2021-11-01,2021-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2021,2021,%,16.905249,E,
+LKA,2022-11-01,2022-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2022,2022,%,68.892659,E,
+LKA,2023-11-01,2023-11-30,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7011,November,2023,2023,%,-2.186964,E,
+LKA,2001-12-01,2001-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2001,2001,%,13.517612,E,
+LKA,2002-12-01,2002-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2002,2002,%,14.114947,E,
+LKA,2003-12-01,2003-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2003,2003,%,6.228186,E,
+LKA,2004-12-01,2004-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2004,2004,%,17.308269,E,
+LKA,2005-12-01,2005-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2005,2005,%,6.874611,E,
+LKA,2006-12-01,2006-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2006,2006,%,16.874757,E,
+LKA,2007-12-01,2007-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2007,2007,%,23.610370,E,
+LKA,2008-12-01,2008-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2008,2008,%,17.608197,E,
+LKA,2009-12-01,2009-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2009,2009,%,6.245954,E,
+LKA,2010-12-01,2010-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2010,2010,%,8.486849,E,
+LKA,2011-12-01,2011-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2011,2011,%,6.072180,E,
+LKA,2012-12-01,2012-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2012,2012,%,11.472567,E,
+LKA,2013-12-01,2013-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2013,2013,%,5.795488,E,
+LKA,2014-12-01,2014-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2014,2014,%,11.799040,E,
+LKA,2015-12-01,2015-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2015,2015,%,2.552817,E,
+LKA,2016-12-01,2016-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2016,2016,%,2.317597,E,
+LKA,2017-12-01,2017-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2017,2017,%,12.751678,E,
+LKA,2018-12-01,2018-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2018,2018,%,-4.464286,E,
+LKA,2019-12-01,2019-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2019,2019,%,8.644860,E,
+LKA,2020-12-01,2020-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2020,2020,%,7.455197,E,
+LKA,2021-12-01,2021-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2021,2021,%,21.480987,E,
+LKA,2022-12-01,2022-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2022,2022,%,58.515790,E,
+LKA,2023-12-01,2023-12-31,38,'144,Sri Lanka,23014,Food price inflation,6121,Value,7012,December,2023,2023,%,1.635112,E,
