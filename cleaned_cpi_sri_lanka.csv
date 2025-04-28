@@ -1,0 +1,880 @@
+Start_Date,End_Date,Item_Code,Indicator,Month,Year,CPI_Value
+2000-01-01,2000-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2000,18.927786
+2001-01-01,2001-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2001,22.774871
+2002-01-01,2002-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2002,25.301758
+2003-01-01,2003-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2003,29.623325
+2004-01-01,2004-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2004,29.812539
+2005-01-01,2005-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2005,34.777004
+2006-01-01,2006-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2006,37.943812
+2007-01-01,2007-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2007,44.464208
+2008-01-01,2008-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2008,56.289981
+2009-01-01,2009-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2009,63.635476
+2010-01-01,2010-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2010,69.253457
+2011-01-01,2011-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2011,74.650477
+2012-01-01,2012-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2012,78.1243
+2013-01-01,2013-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2013,87.70015
+2014-01-01,2014-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2014,90.655651
+2015-01-01,2015-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2015,107.376783
+2016-01-01,2016-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2016,102.857558
+2017-01-01,2017-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2017,109.636395
+2018-01-01,2018-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2018,119.488305
+2019-01-01,2019-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2019,113.703697
+2020-01-01,2020-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2020,129.249831
+2021-01-01,2021-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2021,136.842129
+2022-01-01,2022-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2022,170.19214
+2023-01-01,2023-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2023,261.350463
+2024-01-01,2024-01-31,23013,"Consumer Prices, Food Indices (2015 = 100)",January,2024,271.903274
+2000-02-01,2000-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2000,19.215399
+2001-02-01,2001-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2001,23.230983
+2002-02-01,2002-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2002,25.696035
+2003-02-01,2003-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2003,29.218189
+2004-02-01,2004-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2004,29.544114
+2005-02-01,2005-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2005,34.777004
+2006-02-01,2006-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2006,38.365279
+2007-02-01,2007-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2007,45.696794
+2008-02-01,2008-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2008,58.286952
+2009-02-01,2009-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2009,63.6954
+2010-02-01,2010-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2010,69.679931
+2011-02-01,2011-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2011,75.94964
+2012-02-01,2012-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2012,78.498265
+2013-02-01,2013-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2013,88.134261
+2014-02-01,2014-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2014,90.203728
+2015-02-01,2015-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2015,100.778714
+2016-02-01,2016-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2016,100.146023
+2017-02-01,2017-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2017,110.359471
+2018-02-01,2018-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2018,114.426773
+2019-02-01,2019-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2019,111.082547
+2020-02-01,2020-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2020,129.159446
+2021-02-01,2021-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2021,138.107512
+2022-02-01,2022-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2022,171.876099
+2023-02-01,2023-02-28,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2023,256.074058
+2024-02-01,2024-02-29,23013,"Consumer Prices, Food Indices (2015 = 100)",February,2024,268.872148
+2000-03-01,2000-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2000,19.398498
+2001-03-01,2001-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2001,22.610169
+2002-03-01,2002-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2002,25.839039
+2003-03-01,2003-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2003,28.388061
+2004-03-01,2004-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2004,29.25191
+2005-03-01,2005-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2005,34.949633
+2006-03-01,2006-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2006,38.365279
+2007-03-01,2007-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2007,45.624113
+2008-03-01,2008-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2008,59.408622
+2009-03-01,2009-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2009,63.276155
+2010-03-01,2010-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2010,68.888303
+2011-03-01,2011-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2011,75.516113
+2012-03-01,2012-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2012,80.623767
+2013-03-01,2013-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2013,88.242853
+2014-03-01,2014-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2014,90.474882
+2015-03-01,2015-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2015,97.976795
+2016-03-01,2016-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2016,98.428717
+2017-03-01,2017-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2017,109.455626
+2018-03-01,2018-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2018,112.34793
+2019-03-01,2019-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2019,109.72678
+2020-03-01,2020-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2020,125.182529
+2021-03-01,2021-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2021,136.209437
+2022-03-01,2022-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2022,176.142129
+2023-03-01,2023-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2023,250.573125
+2024-03-01,2024-03-31,23013,"Consumer Prices, Food Indices (2015 = 100)",March,2024,263.146686
+2000-04-01,2000-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2000,19.671808
+2001-04-01,2001-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2001,23.093868
+2002-04-01,2002-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2002,25.470005
+2003-04-01,2003-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2003,28.108532
+2004-04-01,2004-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2004,29.726889
+2005-04-01,2005-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2005,35.503132
+2006-04-01,2006-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2006,39.069681
+2007-04-01,2007-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2007,46.096936
+2008-04-01,2008-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2008,60.771829
+2009-04-01,2009-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2009,62.737901
+2010-04-01,2010-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2010,68.03771
+2011-04-01,2011-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2011,75.516113
+2012-04-01,2012-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2012,81.250958
+2013-04-01,2013-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2013,87.70015
+2014-04-01,2014-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2014,92.011418
+2015-04-01,2015-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2015,95.897951
+2016-04-01,2016-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2016,100.597945
+2017-04-01,2017-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2017,112.438314
+2018-04-01,2018-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2018,112.076776
+2019-04-01,2019-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2019,110.721009
+2020-04-01,2020-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2020,124.278684
+2021-04-01,2021-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2021,136.299822
+2022-04-01,2022-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2022,197.696807
+2023-04-01,2023-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2023,251.246708
+2024-04-01,2024-04-30,23013,"Consumer Prices, Food Indices (2015 = 100)",April,2024,259.441976
+2000-05-01,2000-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2000,19.876285
+2001-05-01,2001-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2001,23.938127
+2002-05-01,2002-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2002,26.924116
+2003-05-01,2003-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2003,28.937119
+2004-05-01,2004-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2004,31.074071
+2005-05-01,2005-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2005,35.745806
+2006-05-01,2006-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2006,39.882734
+2007-05-01,2007-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2007,46.461275
+2008-05-01,2008-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2008,61.783169
+2009-05-01,2009-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2009,64.535461
+2010-05-01,2010-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2010,69.070834
+2011-05-01,2011-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2011,76.073592
+2012-05-01,2012-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2012,82.696984
+2013-05-01,2013-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2013,90.201819
+2014-05-01,2014-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2014,93.728724
+2015-05-01,2015-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2015,97.976795
+2016-05-01,2016-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2016,102.676789
+2017-05-01,2017-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2017,113.522928
+2018-05-01,2018-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2018,113.522928
+2019-05-01,2019-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2019,113.071006
+2020-05-01,2020-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2020,125.634451
+2021-05-01,2021-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2021,138.559434
+2022-05-01,2022-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2022,219.251484
+2023-05-01,2023-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2023,253.828779
+2024-05-01,2024-05-31,23013,"Consumer Prices, Food Indices (2015 = 100)",May,2024,255.175946
+2000-06-01,2000-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2000,20.738643
+2001-06-01,2001-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2001,24.557477
+2002-06-01,2002-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2002,27.844146
+2003-06-01,2003-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2003,29.394251
+2004-06-01,2004-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2004,31.871271
+2005-06-01,2005-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2005,35.988793
+2006-06-01,2006-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2006,40.734505
+2007-06-01,2007-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2007,47.667434
+2008-06-01,2008-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2008,64.956274
+2009-06-01,2009-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2009,65.558333
+2010-06-01,2010-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2010,69.740897
+2011-06-01,2011-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2011,75.887679
+2012-06-01,2012-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2012,84.65359
+2013-06-01,2013-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2013,91.840493
+2014-06-01,2014-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2014,96.349874
+2015-06-01,2015-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2015,99.965254
+2016-06-01,2016-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2016,107.557552
+2017-06-01,2017-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2017,116.77677
+2018-06-01,2018-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2018,117.409462
+2019-06-01,2019-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2019,113.974851
+2020-06-01,2020-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2020,129.4306
+2021-06-01,2021-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2021,142.174814
+2022-06-01,2022-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2022,250.124069
+2023-06-01,2023-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2023,256.41085
+2024-06-01,2024-06-30,23013,"Consumer Prices, Food Indices (2015 = 100)",June,2024,261.350463
+2000-07-01,2000-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2000,20.79987
+2001-07-01,2001-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2001,24.284552
+2002-07-01,2002-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2002,27.562519
+2003-07-01,2003-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2003,28.725868
+2004-07-01,2004-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2004,31.902339
+2005-07-01,2005-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2005,36.197316
+2006-07-01,2006-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2006,40.698946
+2007-07-01,2007-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2007,48.585074
+2008-07-01,2008-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2008,65.136781
+2009-07-01,2009-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2009,66.101086
+2010-07-01,2010-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2010,69.740897
+2011-07-01,2011-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2011,76.197581
+2012-07-01,2012-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2012,85.60344
+2013-07-01,2013-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2013,92.059405
+2014-07-01,2014-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2014,97.88641
+2015-07-01,2015-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2015,99.151793
+2016-07-01,2016-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2016,105.840246
+2017-07-01,2017-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2017,114.517158
+2018-07-01,2018-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2018,117.228693
+2019-07-01,2019-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2019,114.336389
+2020-07-01,2020-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2020,129.069062
+2021-07-01,2021-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2021,143.259428
+2022-07-01,2022-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2022,262.024047
+2023-07-01,2023-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2023,255.400474
+2024-07-01,2024-07-31,23013,"Consumer Prices, Food Indices (2015 = 100)",July,2024,262.697631
+2000-08-01,2000-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2000,20.697187
+2001-08-01,2001-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2001,23.653369
+2002-08-01,2002-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2002,26.6329
+2003-08-01,2003-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2003,27.839969
+2004-08-01,2004-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2004,31.476466
+2005-08-01,2005-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2005,36.336458
+2006-08-01,2006-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2006,40.876798
+2007-08-01,2007-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2007,49.358446
+2008-08-01,2008-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2008,65.016432
+2009-08-01,2009-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2009,65.799452
+2010-08-01,2010-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2010,69.862858
+2011-08-01,2011-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2011,75.94964
+2012-08-01,2012-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2012,84.969983
+2013-08-01,2013-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2013,91.62168
+2014-08-01,2014-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2014,95.988336
+2015-08-01,2015-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2015,97.524872
+2016-08-01,2016-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2016,101.592175
+2017-08-01,2017-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2017,113.884466
+2018-08-01,2018-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2018,113.884466
+2019-08-01,2019-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2019,114.607542
+2020-08-01,2020-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2020,129.701753
+2021-08-01,2021-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2021,144.072888
+2022-08-01,2022-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2022,266.626869
+2023-08-01,2023-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2023,252.14482
+2024-08-01,2024-08-31,23013,"Consumer Prices, Food Indices (2015 = 100)",August,2024,257.870281
+2000-09-01,2000-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2000,20.337574
+2001-09-01,2001-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2001,24.153389
+2002-09-01,2002-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2002,26.376385
+2003-09-01,2003-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2003,27.950679
+2004-09-01,2004-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2004,31.998792
+2005-09-01,2005-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2005,36.440881
+2006-09-01,2006-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2006,41.482592
+2007-09-01,2007-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2007,49.912269
+2008-09-01,2008-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2008,65.136781
+2009-09-01,2009-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2009,65.920074
+2010-09-01,2010-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2010,70.595474
+2011-09-01,2011-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2011,76.197581
+2012-09-01,2012-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2012,84.843399
+2013-09-01,2013-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2013,91.402966
+2014-09-01,2014-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2014,95.988336
+2015-09-01,2015-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2015,97.07295
+2016-09-01,2016-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2016,101.772944
+2017-09-01,2017-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2017,115.872925
+2018-09-01,2018-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2018,110.992162
+2019-09-01,2019-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2019,116.415232
+2020-09-01,2020-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2020,131.147905
+2021-09-01,2021-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2021,144.253657
+2022-09-01,2022-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2022,266.177813
+2023-09-01,2023-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2023,254.502363
+2024-09-01,2024-09-30,23013,"Consumer Prices, Food Indices (2015 = 100)",September,2024,255.84953
+2000-10-01,2000-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2000,20.533488
+2001-10-01,2001-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2001,24.171682
+2002-10-01,2002-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2002,26.627723
+2003-10-01,2003-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2003,27.916204
+2004-10-01,2004-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2004,32.156451
+2005-10-01,2005-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2005,36.824251
+2006-10-01,2006-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2006,42.161649
+2007-10-01,2007-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2007,51.803967
+2008-10-01,2008-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2008,64.896126
+2009-10-01,2009-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2009,66.161444
+2010-10-01,2010-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2010,71.513277
+2011-10-01,2011-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2011,76.073592
+2012-10-01,2012-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2012,84.527096
+2013-10-01,2013-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2013,91.62168
+2014-10-01,2014-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2014,96.259489
+2015-10-01,2015-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2015,98.428717
+2016-10-01,2016-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2016,103.580634
+2017-10-01,2017-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2017,118.765229
+2018-10-01,2018-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2018,110.901778
+2019-10-01,2019-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2019,119.036383
+2020-10-01,2020-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2020,131.599828
+2021-10-01,2021-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2021,146.965192
+2022-10-01,2022-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2022,265.504229
+2023-10-01,2023-10-31,23013,"Consumer Prices, Food Indices (2015 = 100)",October,2023,251.5835
+2000-11-01,2000-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2000,20.675478
+2001-11-01,2001-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2001,24.529955
+2002-11-01,2002-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2002,27.30016
+2003-11-01,2003-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2003,28.807811
+2004-11-01,2004-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2004,33.522448
+2005-11-01,2005-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2005,37.24334
+2006-11-01,2006-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2006,43.02238
+2007-11-01,2007-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2007,53.521546
+2008-11-01,2008-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2008,64.415325
+2009-11-01,2009-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2009,66.765601
+2010-11-01,2010-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2010,72.494739
+2011-11-01,2011-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2011,76.756009
+2012-11-01,2012-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2012,85.857073
+2013-11-01,2013-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2013,91.840493
+2014-11-01,2014-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2014,98.699871
+2015-11-01,2015-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2015,103.219096
+2016-11-01,2016-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2016,104.755632
+2017-11-01,2017-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2017,121.205611
+2018-11-01,2018-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2018,116.505617
+2019-11-01,2019-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2019,121.205611
+2020-11-01,2020-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2020,132.594057
+2021-11-01,2021-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2021,155.009413
+2022-11-01,2022-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2022,261.799519
+2023-11-01,2023-11-30,23013,"Consumer Prices, Food Indices (2015 = 100)",November,2023,256.074058
+2000-12-01,2000-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2000,21.72932
+2001-12-01,2001-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2001,24.666605
+2002-12-01,2002-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2002,28.148283
+2003-12-01,2003-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2003,29.901411
+2004-12-01,2004-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2004,35.076827
+2005-12-01,2005-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2005,37.488223
+2006-12-01,2006-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2006,43.814269
+2007-12-01,2007-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2007,54.15898
+2008-12-01,2008-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2008,63.6954
+2009-12-01,2009-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2009,67.673785
+2010-12-01,2010-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2010,73.417157
+2011-12-01,2011-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2011,77.875179
+2012-12-01,2012-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2012,86.80946
+2013-12-01,2013-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2013,91.840493
+2014-12-01,2014-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2014,102.676789
+2015-12-01,2015-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2015,105.297939
+2016-12-01,2016-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2016,107.738321
+2017-12-01,2017-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2017,121.476764
+2018-12-01,2018-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2018,116.053694
+2019-12-01,2019-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2019,126.086374
+2020-12-01,2020-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2020,135.486361
+2021-12-01,2021-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2021,164.590169
+2022-12-01,2022-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2022,260.901407
+2023-12-01,2023-12-31,23013,"Consumer Prices, Food Indices (2015 = 100)",December,2023,265.167437
+2000-01-01,2000-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2000,26.333727
+2001-01-01,2001-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2001,30.592003
+2002-01-01,2002-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2002,33.313844
+2003-01-01,2003-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2003,37.853161
+2004-01-01,2004-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2004,38.048906
+2005-01-01,2005-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2005,43.105394
+2006-01-01,2006-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2006,46.258602
+2007-01-01,2007-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2007,52.599668
+2008-01-01,2008-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2008,63.672624
+2009-01-01,2009-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2009,70.324187
+2010-01-01,2010-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2010,75.31286
+2011-01-01,2011-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2011,80.033324
+2012-01-01,2012-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2012,83.037256
+2013-01-01,2013-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2013,91.190785
+2014-01-01,2014-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2014,94.206111
+2015-01-01,2015-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2015,103.069344
+2016-01-01,2016-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2016,102.338355
+2017-01-01,2017-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2017,109.008623
+2018-01-01,2018-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2018,114.947903
+2019-01-01,2019-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2019,116.318506
+2020-01-01,2020-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2020,125.181738
+2021-01-01,2021-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2021,129.841789
+2022-01-01,2022-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2022,151.683782
+2023-01-01,2023-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2023,232.420557
+2024-01-01,2024-01-31,23012,"Consumer Prices, General Indices (2015 = 100)",January,2024,247.623487
+2000-02-01,2000-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2000,26.657417
+2001-02-01,2001-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2001,31.08738
+2002-02-01,2002-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2002,33.733766
+2003-02-01,2003-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2003,37.433238
+2004-02-01,2004-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2004,37.771145
+2005-02-01,2005-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2005,43.105394
+2006-02-01,2006-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2006,46.674409
+2007-02-01,2007-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2007,53.77779
+2008-02-01,2008-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2008,65.49644
+2009-02-01,2009-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2009,70.377829
+2010-02-01,2010-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2010,75.688351
+2011-02-01,2011-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2011,81.159798
+2012-02-01,2012-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2012,83.359105
+2013-02-01,2013-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2013,91.556279
+2014-02-01,2014-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2014,94.114738
+2015-02-01,2015-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2015,99.505776
+2016-02-01,2016-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2016,101.241873
+2017-02-01,2017-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2017,109.556864
+2018-02-01,2018-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2018,113.029059
+2019-02-01,2019-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2019,115.770265
+2020-02-01,2020-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2020,125.181738
+2021-02-01,2021-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2021,130.481403
+2022-02-01,2022-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2022,153.065867
+2023-02-01,2023-02-28,23012,"Consumer Prices, General Indices (2015 = 100)",February,2023,235.069552
+2024-02-01,2024-02-29,23012,"Consumer Prices, General Indices (2015 = 100)",February,2024,247.047618
+2000-03-01,2000-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2000,26.863004
+2001-03-01,2001-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2001,30.412661
+2002-03-01,2002-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2002,33.885769
+2003-03-01,2003-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2003,36.569336
+2004-03-01,2004-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2004,37.468232
+2005-03-01,2005-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2005,43.278647
+2006-03-01,2006-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2006,46.674409
+2007-03-01,2007-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2007,53.708489
+2008-03-01,2008-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2008,66.515631
+2009-03-01,2009-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2009,70.002338
+2010-03-01,2010-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2010,74.99101
+2011-03-01,2011-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2011,80.784307
+2012-03-01,2012-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2012,85.182921
+2013-03-01,2013-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2013,91.647652
+2014-03-01,2014-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2014,94.297485
+2015-03-01,2015-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2015,98.31792
+2016-03-01,2016-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2016,100.510885
+2017-03-01,2017-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2017,109.19137
+2018-03-01,2018-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2018,112.206697
+2019-03-01,2019-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2019,115.496144
+2020-03-01,2020-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2020,123.537015
+2021-03-01,2021-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2021,129.841789
+2022-03-01,2022-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2022,158.133511
+2023-03-01,2023-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2023,235.875768
+2024-03-01,2024-03-31,23012,"Consumer Prices, General Indices (2015 = 100)",March,2024,241.864801
+2000-04-01,2000-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2000,27.169198
+2001-04-01,2001-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2001,30.938657
+2002-04-01,2002-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2002,33.493185
+2003-04-01,2003-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2003,36.277358
+2004-04-01,2004-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2004,37.960329
+2005-04-01,2005-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2005,43.833057
+2006-04-01,2006-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2006,47.367422
+2007-04-01,2007-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2007,54.158947
+2008-04-01,2008-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2008,67.749389
+2009-04-01,2009-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2009,69.519563
+2010-04-01,2010-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2010,74.240027
+2011-04-01,2011-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2011,80.784307
+2012-04-01,2012-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2012,85.719338
+2013-04-01,2013-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2013,91.190785
+2014-04-01,2014-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2014,95.119846
+2015-04-01,2015-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2015,97.769679
+2016-04-01,2016-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2016,101.972861
+2017-04-01,2017-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2017,110.561973
+2018-04-01,2018-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2018,112.29807
+2019-04-01,2019-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2019,116.318506
+2020-04-01,2020-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2020,123.171521
+2021-04-01,2021-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2021,129.933162
+2022-04-01,2022-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2022,174.718525
+2023-04-01,2023-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2023,233.45712
+2024-04-01,2024-04-30,23012,"Consumer Prices, General Indices (2015 = 100)",April,2024,239.791674
+2000-05-01,2000-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2000,27.397749
+2001-05-01,2001-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2001,31.85177
+2002-05-01,2002-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2002,35.033994
+2003-05-01,2003-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2003,37.141261
+2004-05-01,2004-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2004,39.348041
+2005-05-01,2005-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2005,44.075611
+2006-05-01,2006-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2006,48.164387
+2007-05-01,2007-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2007,54.505454
+2008-05-01,2008-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2008,68.661297
+2009-05-01,2009-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2009,71.128812
+2010-05-01,2010-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2010,75.151935
+2011-05-01,2011-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2011,81.267082
+2012-05-01,2012-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2012,86.953095
+2013-05-01,2013-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2013,93.292376
+2014-05-01,2014-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2014,95.850835
+2015-05-01,2015-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2015,98.683414
+2016-05-01,2016-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2016,103.891706
+2017-05-01,2017-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2017,111.292962
+2018-05-01,2018-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2018,113.5773
+2019-05-01,2019-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2019,117.597735
+2020-05-01,2020-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2020,123.719762
+2021-05-01,2021-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2021,131.212391
+2022-05-01,2022-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2022,191.533888
+2023-05-01,2023-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2023,233.917815
+2024-05-01,2024-05-31,23012,"Consumer Prices, General Indices (2015 = 100)",May,2024,237.603374
+2000-06-01,2000-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2000,28.356791
+2001-06-01,2001-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2001,32.517741
+2002-06-01,2002-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2002,36.000691
+2003-06-01,2003-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2003,37.615861
+2004-06-01,2004-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2004,40.163828
+2005-06-01,2005-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2005,44.318166
+2006-06-01,2006-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2006,48.996002
+2007-06-01,2007-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2007,55.648925
+2008-06-01,2008-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2008,71.504303
+2009-06-01,2009-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2009,72.04072
+2010-06-01,2010-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2010,75.741993
+2011-06-01,2011-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2011,81.106157
+2012-06-01,2012-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2012,88.615986
+2013-06-01,2013-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2013,94.662979
+2014-06-01,2014-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2014,97.038691
+2015-06-01,2015-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2015,99.688523
+2016-06-01,2016-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2016,106.08467
+2017-06-01,2017-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2017,112.754938
+2018-06-01,2018-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2018,115.587518
+2019-06-01,2019-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2019,118.054603
+2020-06-01,2020-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2020,125.455859
+2021-06-01,2021-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2021,133.131236
+2022-06-01,2022-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2022,211.343767
+2023-06-01,2023-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2023,234.148162
+2024-06-01,2024-06-30,23012,"Consumer Prices, General Indices (2015 = 100)",June,2024,239.676501
+2000-07-01,2000-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2000,28.424591
+2001-07-01,2001-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2001,32.22467
+2002-07-01,2002-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2002,35.705433
+2003-07-01,2003-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2003,36.921458
+2004-07-01,2004-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2004,40.195541
+2005-07-01,2005-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2005,44.52607
+2006-07-01,2006-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2006,48.961351
+2007-07-01,2007-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2007,56.515191
+2008-07-01,2008-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2008,71.665228
+2009-07-01,2009-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2009,72.523495
+2010-07-01,2010-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2010,75.741993
+2011-07-01,2011-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2011,81.374365
+2012-07-01,2012-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2012,89.420611
+2013-07-01,2013-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2013,94.845726
+2014-07-01,2014-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2014,97.769679
+2015-07-01,2015-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2015,99.505776
+2016-07-01,2016-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2016,105.262308
+2017-07-01,2017-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2017,111.841203
+2018-07-01,2018-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2018,115.678891
+2019-07-01,2019-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2019,118.23735
+2020-07-01,2020-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2020,125.455859
+2021-07-01,2021-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2021,133.953597
+2022-07-01,2022-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2022,222.400443
+2023-07-01,2023-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2023,232.53573
+2024-07-01,2024-07-31,23012,"Consumer Prices, General Indices (2015 = 100)",July,2024,238.294416
+2000-08-01,2000-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2000,28.310862
+2001-08-01,2001-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2001,31.544483
+2002-08-01,2002-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2002,34.726707
+2003-08-01,2003-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2003,35.996317
+2004-08-01,2004-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2004,39.760308
+2005-08-01,2005-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2005,44.664672
+2006-08-01,2006-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2006,49.134605
+2007-08-01,2007-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2007,57.242854
+2008-08-01,2008-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2008,71.557945
+2009-08-01,2009-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2009,72.255286
+2010-08-01,2010-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2010,75.849276
+2011-08-01,2011-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2011,81.159798
+2012-08-01,2012-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2012,88.884194
+2013-08-01,2013-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2013,94.480232
+2014-08-01,2014-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2014,97.221438
+2015-08-01,2015-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2015,99.048908
+2016-08-01,2016-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2016,103.526211
+2017-08-01,2017-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2017,111.749829
+2018-08-01,2018-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2018,114.582409
+2019-08-01,2019-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2019,118.511471
+2020-08-01,2020-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2020,125.912727
+2021-08-01,2021-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2021,134.410465
+2022-08-01,2022-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2022,227.698434
+2023-08-01,2023-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2023,232.53573
+2024-08-01,2024-08-31,23012,"Consumer Prices, General Indices (2015 = 100)",August,2024,235.069552
+2000-09-01,2000-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2000,27.911717
+2001-09-01,2001-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2001,32.083602
+2002-09-01,2002-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2002,34.455508
+2003-09-01,2003-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2003,36.112233
+2004-09-01,2004-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2004,40.29396
+2005-09-01,2005-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2005,44.768624
+2006-09-01,2006-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2006,49.723665
+2007-09-01,2007-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2007,57.762613
+2008-09-01,2008-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2008,71.665228
+2009-09-01,2009-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2009,72.36257
+2010-09-01,2010-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2010,76.492976
+2011-09-01,2011-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2011,81.374365
+2012-09-01,2012-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2012,88.776911
+2013-09-01,2013-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2013,94.297485
+2014-09-01,2014-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2014,97.221438
+2015-09-01,2015-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2015,99.048908
+2016-09-01,2016-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2016,103.708958
+2017-09-01,2017-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2017,112.663565
+2018-09-01,2018-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2018,113.668673
+2019-09-01,2019-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2019,119.333832
+2020-09-01,2020-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2020,126.917835
+2021-09-01,2021-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2021,134.775959
+2022-09-01,2022-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2022,232.53573
+2023-09-01,2023-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2023,234.37851
+2024-09-01,2024-09-30,23012,"Consumer Prices, General Indices (2015 = 100)",September,2024,233.917815
+2000-10-01,2000-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2000,28.129333
+2001-10-01,2001-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2001,32.103286
+2002-10-01,2002-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2002,34.72124
+2003-10-01,2003-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2003,36.076146
+2004-10-01,2004-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2004,40.454711
+2005-10-01,2005-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2005,45.149781
+2006-10-01,2006-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2006,50.382028
+2007-10-01,2007-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2007,59.529796
+2008-10-01,2008-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2008,71.450662
+2009-10-01,2009-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2009,72.577136
+2010-10-01,2010-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2010,77.2976
+2011-10-01,2011-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2011,81.267082
+2012-10-01,2012-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2012,88.508703
+2013-10-01,2013-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2013,94.480232
+2014-10-01,2014-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2014,96.855944
+2015-10-01,2015-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2015,99.779897
+2016-10-01,2016-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2016,104.805441
+2017-10-01,2017-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2017,114.034168
+2018-10-01,2018-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2018,114.125541
+2019-10-01,2019-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2019,120.521688
+2020-10-01,2020-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2020,127.100583
+2021-10-01,2021-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2021,137.608539
+2022-10-01,2022-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2022,232.190209
+2023-10-01,2023-10-31,23012,"Consumer Prices, General Indices (2015 = 100)",October,2023,234.493683
+2000-11-01,2000-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2000,28.286804
+2001-11-01,2001-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2001,32.488215
+2002-11-01,2002-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2002,35.429859
+2003-11-01,2003-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2003,37.006755
+2004-11-01,2004-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2004,41.84133
+2005-11-01,2005-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2005,45.565589
+2006-11-01,2006-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2006,51.213643
+2007-11-01,2007-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2007,61.123725
+2008-11-01,2008-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2008,71.021529
+2009-11-01,2009-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2009,73.113553
+2010-11-01,2010-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2010,78.155867
+2011-11-01,2011-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2011,81.85714
+2012-11-01,2012-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2012,89.635177
+2013-11-01,2013-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2013,94.662979
+2014-11-01,2014-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2014,97.678305
+2015-11-01,2015-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2015,102.338355
+2016-11-01,2016-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2016,106.541538
+2017-11-01,2017-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2017,115.496144
+2018-11-01,2018-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2018,116.684
+2019-11-01,2019-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2019,121.435424
+2020-11-01,2020-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2020,127.740197
+2021-11-01,2021-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2021,141.903095
+2022-11-01,2022-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2022,230.692951
+2023-11-01,2023-11-30,23012,"Consumer Prices, General Indices (2015 = 100)",November,2023,237.257853
+2000-12-01,2000-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2000,29.449245
+2001-12-01,2001-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2001,32.63475
+2002-12-01,2002-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2002,36.318913
+2003-12-01,2003-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2003,38.140764
+2004-12-01,2004-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2004,43.406197
+2005-12-01,2005-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2005,45.808143
+2006-12-01,2006-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2006,51.975957
+2007-12-01,2007-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2007,61.712786
+2008-12-01,2008-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2008,70.377829
+2009-12-01,2009-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2009,73.918177
+2010-12-01,2010-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2010,78.960491
+2011-12-01,2011-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2011,82.822689
+2012-12-01,2012-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2012,90.439802
+2013-12-01,2013-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2013,94.662979
+2014-12-01,2014-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2014,99.231655
+2015-12-01,2015-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2015,103.434838
+2016-12-01,2016-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2016,107.820767
+2017-12-01,2017-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2017,115.678891
+2018-12-01,2018-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2018,116.135759
+2019-12-01,2019-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2019,123.354268
+2020-12-01,2020-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2020,129.019427
+2021-12-01,2021-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2021,147.111386
+2022-12-01,2022-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2022,230.808125
+2023-12-01,2023-12-31,23012,"Consumer Prices, General Indices (2015 = 100)",December,2023,240.482717
+2001-01-01,2001-01-31,23014,Food price inflation,January,2001,20.325061
+2002-01-01,2002-01-31,23014,Food price inflation,January,2002,11.095067
+2003-01-01,2003-01-31,23014,Food price inflation,January,2003,17.080107
+2004-01-01,2004-01-31,23014,Food price inflation,January,2004,0.638732
+2005-01-01,2005-01-31,23014,Food price inflation,January,2005,16.652272
+2006-01-01,2006-01-31,23014,Food price inflation,January,2006,9.106039
+2007-01-01,2007-01-31,23014,Food price inflation,January,2007,17.184348
+2008-01-01,2008-01-31,23014,Food price inflation,January,2008,26.596162
+2009-01-01,2009-01-31,23014,Food price inflation,January,2009,13.049382
+2010-01-01,2010-01-31,23014,Food price inflation,January,2010,8.828379
+2011-01-01,2011-01-31,23014,Food price inflation,January,2011,7.793142
+2012-01-01,2012-01-31,23014,Food price inflation,January,2012,4.65345
+2013-01-01,2013-01-31,23014,Food price inflation,January,2013,12.257198
+2014-01-01,2014-01-31,23014,Food price inflation,January,2014,3.370006
+2015-01-01,2015-01-31,23014,Food price inflation,January,2015,18.444666
+2016-01-01,2016-01-31,23014,Food price inflation,January,2016,-4.208754
+2017-01-01,2017-01-31,23014,Food price inflation,January,2017,6.59051
+2018-01-01,2018-01-31,23014,Food price inflation,January,2018,8.985985
+2019-01-01,2019-01-31,23014,Food price inflation,January,2019,-4.84115
+2020-01-01,2020-01-31,23014,Food price inflation,January,2020,13.672496
+2021-01-01,2021-01-31,23014,Food price inflation,January,2021,5.874126
+2022-01-01,2022-01-31,23014,Food price inflation,January,2022,24.371158
+2023-01-01,2023-01-31,23014,Food price inflation,January,2023,53.562005
+2024-01-01,2024-01-31,23014,Food price inflation,January,2024,4.037801
+2001-02-01,2001-02-28,23014,Food price inflation,February,2001,20.897738
+2002-02-01,2002-02-28,23014,Food price inflation,February,2002,10.611054
+2003-02-01,2003-02-28,23014,Food price inflation,February,2003,13.706994
+2004-02-01,2004-02-29,23014,Food price inflation,February,2004,1.115487
+2005-02-01,2005-02-28,23014,Food price inflation,February,2005,17.712124
+2006-02-01,2006-02-28,23014,Food price inflation,February,2006,10.317955
+2007-02-01,2007-02-28,23014,Food price inflation,February,2007,19.109765
+2008-02-01,2008-02-29,23014,Food price inflation,February,2008,27.551512
+2009-02-01,2009-02-28,23014,Food price inflation,February,2009,9.279002
+2010-02-01,2010-02-28,23014,Food price inflation,February,2010,9.395547
+2011-02-01,2011-02-28,23014,Food price inflation,February,2011,8.997869
+2012-02-01,2012-02-29,23014,Food price inflation,February,2012,3.355677
+2013-02-01,2013-02-28,23014,Food price inflation,February,2013,12.275426
+2014-02-01,2014-02-28,23014,Food price inflation,February,2014,2.348084
+2015-02-01,2015-02-28,23014,Food price inflation,February,2015,11.723447
+2016-02-01,2016-02-29,23014,Food price inflation,February,2016,-0.627803
+2017-02-01,2017-02-28,23014,Food price inflation,February,2017,10.198556
+2018-02-01,2018-02-28,23014,Food price inflation,February,2018,3.685504
+2019-02-01,2019-02-28,23014,Food price inflation,February,2019,-2.922591
+2020-02-01,2020-02-29,23014,Food price inflation,February,2020,16.273393
+2021-02-01,2021-02-28,23014,Food price inflation,February,2021,6.927922
+2022-02-01,2022-02-28,23014,Food price inflation,February,2022,24.450942
+2023-02-01,2023-02-28,23014,Food price inflation,February,2023,48.98759
+2024-02-01,2024-02-29,23014,Food price inflation,February,2024,4.997808
+2001-03-01,2001-03-31,23014,Food price inflation,March,2001,16.556287
+2002-03-01,2002-03-31,23014,Food price inflation,March,2002,14.280612
+2003-03-01,2003-03-31,23014,Food price inflation,March,2003,9.865003
+2004-03-01,2004-03-31,23014,Food price inflation,March,2004,3.042998
+2005-03-01,2005-03-31,23014,Food price inflation,March,2005,19.478124
+2006-03-01,2006-03-31,23014,Food price inflation,March,2006,9.773055
+2007-03-01,2007-03-31,23014,Food price inflation,March,2007,18.920318
+2008-03-01,2008-03-31,23014,Food price inflation,March,2008,30.213211
+2009-03-01,2009-03-31,23014,Food price inflation,March,2009,6.510054
+2010-03-01,2010-03-31,23014,Food price inflation,March,2010,8.869294
+2011-03-01,2011-03-31,23014,Food price inflation,March,2011,9.621096
+2012-03-01,2012-03-31,23014,Food price inflation,March,2012,6.76366
+2013-03-01,2013-03-31,23014,Food price inflation,March,2013,9.450174
+2014-03-01,2014-03-31,23014,Food price inflation,March,2014,2.529416
+2015-03-01,2015-03-31,23014,Food price inflation,March,2015,8.291708
+2016-03-01,2016-03-31,23014,Food price inflation,March,2016,0.461255
+2017-03-01,2017-03-31,23014,Food price inflation,March,2017,11.202938
+2018-03-01,2018-03-31,23014,Food price inflation,March,2018,2.642444
+2019-03-01,2019-03-31,23014,Food price inflation,March,2019,-2.333065
+2020-03-01,2020-03-31,23014,Food price inflation,March,2020,14.085667
+2021-03-01,2021-03-31,23014,Food price inflation,March,2021,8.808664
+2022-03-01,2022-03-31,23014,Food price inflation,March,2022,29.317126
+2023-03-01,2023-03-31,23014,Food price inflation,March,2023,42.256214
+2024-03-01,2024-03-31,23014,Food price inflation,March,2024,5.017921
+2001-04-01,2001-04-30,23014,Food price inflation,April,2001,17.395761
+2002-04-01,2002-04-30,23014,Food price inflation,April,2002,10.28904
+2003-04-01,2003-04-30,23014,Food price inflation,April,2003,10.359349
+2004-04-01,2004-04-30,23014,Food price inflation,April,2004,5.757528
+2005-04-01,2005-04-30,23014,Food price inflation,April,2005,19.431039
+2006-04-01,2006-04-30,23014,Food price inflation,April,2006,10.045731
+2007-04-01,2007-04-30,23014,Food price inflation,April,2007,17.986466
+2008-04-01,2008-04-30,23014,Food price inflation,April,2008,31.834854
+2009-04-01,2009-04-30,23014,Food price inflation,April,2009,3.235171
+2010-04-01,2010-04-30,23014,Food price inflation,April,2010,8.447539
+2011-04-01,2011-04-30,23014,Food price inflation,April,2011,10.991557
+2012-04-01,2012-04-30,23014,Food price inflation,April,2012,7.5942
+2013-04-01,2013-04-30,23014,Food price inflation,April,2013,7.937374
+2014-04-01,2014-04-30,23014,Food price inflation,April,2014,4.915919
+2015-04-01,2015-04-30,23014,Food price inflation,April,2015,4.223969
+2016-04-01,2016-04-30,23014,Food price inflation,April,2016,4.901037
+2017-04-01,2017-04-30,23014,Food price inflation,April,2017,11.769991
+2018-04-01,2018-04-30,23014,Food price inflation,April,2018,-0.321543
+2019-04-01,2019-04-30,23014,Food price inflation,April,2019,-1.209677
+2020-04-01,2020-04-30,23014,Food price inflation,April,2020,12.244898
+2021-04-01,2021-04-30,23014,Food price inflation,April,2021,9.672727
+2022-04-01,2022-04-30,23014,Food price inflation,April,2022,45.045536
+2023-04-01,2023-04-30,23014,Food price inflation,April,2023,27.086882
+2024-04-01,2024-04-30,23014,Food price inflation,April,2024,3.261841
+2001-05-01,2001-05-31,23014,Food price inflation,May,2001,20.435617
+2002-05-01,2002-05-31,23014,Food price inflation,May,2002,12.47378
+2003-05-01,2003-05-31,23014,Food price inflation,May,2003,7.476579
+2004-05-01,2004-05-31,23014,Food price inflation,May,2004,7.384811
+2005-05-01,2005-05-31,23014,Food price inflation,May,2005,15.034191
+2006-05-01,2006-05-31,23014,Food price inflation,May,2006,11.573184
+2007-05-01,2007-05-31,23014,Food price inflation,May,2007,16.49471
+2008-05-01,2008-05-31,23014,Food price inflation,May,2008,32.977774
+2009-05-01,2009-05-31,23014,Food price inflation,May,2009,4.45476
+2010-05-01,2010-05-31,23014,Food price inflation,May,2010,7.027722
+2011-05-01,2011-05-31,23014,Food price inflation,May,2011,10.138516
+2012-05-01,2012-05-31,23014,Food price inflation,May,2012,8.70656
+2013-05-01,2013-05-31,23014,Food price inflation,May,2013,9.0751
+2014-05-01,2014-05-31,23014,Food price inflation,May,2014,3.910015
+2015-05-01,2015-05-31,23014,Food price inflation,May,2015,4.532305
+2016-05-01,2016-05-31,23014,Food price inflation,May,2016,4.797048
+2017-05-01,2017-05-31,23014,Food price inflation,May,2017,10.56338
+2018-05-01,2018-05-31,23014,Food price inflation,May,2018,0.0
+2019-05-01,2019-05-31,23014,Food price inflation,May,2019,-0.398089
+2020-05-01,2020-05-31,23014,Food price inflation,May,2020,11.111111
+2021-05-01,2021-05-31,23014,Food price inflation,May,2021,10.28777
+2022-05-01,2022-05-31,23014,Food price inflation,May,2022,58.236417
+2023-05-01,2023-05-31,23014,Food price inflation,May,2023,15.770609
+2024-05-01,2024-05-31,23014,Food price inflation,May,2024,0.530739
+2001-06-01,2001-06-30,23014,Food price inflation,June,2001,18.414096
+2002-06-01,2002-06-30,23014,Food price inflation,June,2002,13.383576
+2003-06-01,2003-06-30,23014,Food price inflation,June,2003,5.567077
+2004-06-01,2004-06-30,23014,Food price inflation,June,2004,8.426888
+2005-06-01,2005-06-30,23014,Food price inflation,June,2005,12.919226
+2006-06-01,2006-06-30,23014,Food price inflation,June,2006,13.186639
+2007-06-01,2007-06-30,23014,Food price inflation,June,2007,17.019796
+2008-06-01,2008-06-30,23014,Food price inflation,June,2008,36.269708
+2009-06-01,2009-06-30,23014,Food price inflation,June,2009,0.926869
+2010-06-01,2010-06-30,23014,Food price inflation,June,2010,6.379911
+2011-06-01,2011-06-30,23014,Food price inflation,June,2011,8.813742
+2012-06-01,2012-06-30,23014,Food price inflation,June,2012,11.551165
+2013-06-01,2013-06-30,23014,Food price inflation,June,2013,8.489778
+2014-06-01,2014-06-30,23014,Food price inflation,June,2014,4.910014
+2015-06-01,2015-06-30,23014,Food price inflation,June,2015,3.752345
+2016-06-01,2016-06-30,23014,Food price inflation,June,2016,7.594937
+2017-06-01,2017-06-30,23014,Food price inflation,June,2017,8.571429
+2018-06-01,2018-06-30,23014,Food price inflation,June,2018,0.541796
+2019-06-01,2019-06-30,23014,Food price inflation,June,2019,-2.925327
+2020-06-01,2020-06-30,23014,Food price inflation,June,2020,13.560666
+2021-06-01,2021-06-30,23014,Food price inflation,June,2021,9.846369
+2022-06-01,2022-06-30,23014,Food price inflation,June,2022,75.927129
+2023-06-01,2023-06-30,23014,Food price inflation,June,2023,2.513465
+2024-06-01,2024-06-30,23014,Food price inflation,June,2024,1.926445
+2001-07-01,2001-07-31,23014,Food price inflation,July,2001,16.753383
+2002-07-01,2002-07-31,23014,Food price inflation,July,2002,13.498157
+2003-07-01,2003-07-31,23014,Food price inflation,July,2003,4.220764
+2004-07-01,2004-07-31,23014,Food price inflation,July,2004,11.057875
+2005-07-01,2005-07-31,23014,Food price inflation,July,2005,13.46289
+2006-07-01,2006-07-31,23014,Food price inflation,July,2006,12.436366
+2007-07-01,2007-07-31,23014,Food price inflation,July,2007,19.376737
+2008-07-01,2008-07-31,23014,Food price inflation,July,2008,34.067473
+2009-07-01,2009-07-31,23014,Food price inflation,July,2009,1.480431
+2010-07-01,2010-07-31,23014,Food price inflation,July,2010,5.506431
+2011-07-01,2011-07-31,23014,Food price inflation,July,2011,9.258104
+2012-07-01,2012-07-31,23014,Food price inflation,July,2012,12.344038
+2013-07-01,2013-07-31,23014,Food price inflation,July,2013,7.541712
+2014-07-01,2014-07-31,23014,Food price inflation,July,2014,6.329615
+2015-07-01,2015-07-31,23014,Food price inflation,July,2015,1.292705
+2016-07-01,2016-07-31,23014,Food price inflation,July,2016,6.74567
+2017-07-01,2017-07-31,23014,Food price inflation,July,2017,8.198121
+2018-07-01,2018-07-31,23014,Food price inflation,July,2018,2.367798
+2019-07-01,2019-07-31,23014,Food price inflation,July,2019,-2.467232
+2020-07-01,2020-07-31,23014,Food price inflation,July,2020,12.885375
+2021-07-01,2021-07-31,23014,Food price inflation,July,2021,10.994398
+2022-07-01,2022-07-31,23014,Food price inflation,July,2022,82.901782
+2023-07-01,2023-07-31,23014,Food price inflation,July,2023,-2.527849
+2024-07-01,2024-07-31,23014,Food price inflation,July,2024,2.857143
+2001-08-01,2001-08-31,23014,Food price inflation,August,2001,14.283015
+2002-08-01,2002-08-31,23014,Food price inflation,August,2002,12.596644
+2003-08-01,2003-08-31,23014,Food price inflation,August,2003,4.53225
+2004-08-01,2004-08-31,23014,Food price inflation,August,2004,13.062143
+2005-08-01,2005-08-31,23014,Food price inflation,August,2005,15.44008
+2006-08-01,2006-08-31,23014,Food price inflation,August,2006,12.495275
+2007-08-01,2007-08-31,23014,Food price inflation,August,2007,20.749296
+2008-08-01,2008-08-31,23014,Food price inflation,August,2008,31.723014
+2009-08-01,2009-08-31,23014,Food price inflation,August,2009,1.204341
+2010-08-01,2010-08-31,23014,Food price inflation,August,2010,6.175441
+2011-08-01,2011-08-31,23014,Food price inflation,August,2011,8.712473
+2012-08-01,2012-08-31,23014,Food price inflation,August,2012,11.876742
+2013-08-01,2013-08-31,23014,Food price inflation,August,2013,7.82829
+2014-08-01,2014-08-31,23014,Food price inflation,August,2014,4.765964
+2015-08-01,2015-08-31,23014,Food price inflation,August,2015,1.600753
+2016-08-01,2016-08-31,23014,Food price inflation,August,2016,4.170528
+2017-08-01,2017-08-31,23014,Food price inflation,August,2017,12.099644
+2018-08-01,2018-08-31,23014,Food price inflation,August,2018,0.0
+2019-08-01,2019-08-31,23014,Food price inflation,August,2019,0.634921
+2020-08-01,2020-08-31,23014,Food price inflation,August,2020,13.170347
+2021-08-01,2021-08-31,23014,Food price inflation,August,2021,11.080139
+2022-08-01,2022-08-31,23014,Food price inflation,August,2022,85.063874
+2023-08-01,2023-08-31,23014,Food price inflation,August,2023,-5.431579
+2024-08-01,2024-08-31,23014,Food price inflation,August,2024,2.270703
+2001-09-01,2001-09-30,23014,Food price inflation,September,2001,18.76239
+2002-09-01,2002-09-30,23014,Food price inflation,September,2002,9.203661
+2003-09-01,2003-09-30,23014,Food price inflation,September,2003,5.968576
+2004-09-01,2004-09-30,23014,Food price inflation,September,2004,14.483057
+2005-09-01,2005-09-30,23014,Food price inflation,September,2005,13.882052
+2006-09-01,2006-09-30,23014,Food price inflation,September,2006,13.835316
+2007-09-01,2007-09-30,23014,Food price inflation,September,2007,20.320998
+2008-09-01,2008-09-30,23014,Food price inflation,September,2008,30.502545
+2009-09-01,2009-09-30,23014,Food price inflation,September,2009,1.202536
+2010-09-01,2010-09-30,23014,Food price inflation,September,2010,7.092529
+2011-09-01,2011-09-30,23014,Food price inflation,September,2011,7.935505
+2012-09-01,2012-09-30,23014,Food price inflation,September,2012,11.346578
+2013-09-01,2013-09-30,23014,Food price inflation,September,2013,7.731381
+2014-09-01,2014-09-30,23014,Food price inflation,September,2014,5.016654
+2015-09-01,2015-09-30,23014,Food price inflation,September,2015,1.129944
+2016-09-01,2016-09-30,23014,Food price inflation,September,2016,4.841713
+2017-09-01,2017-09-30,23014,Food price inflation,September,2017,13.854352
+2018-09-01,2018-09-30,23014,Food price inflation,September,2018,-4.212168
+2019-09-01,2019-09-30,23014,Food price inflation,September,2019,4.885993
+2020-09-01,2020-09-30,23014,Food price inflation,September,2020,12.65528
+2021-09-01,2021-09-30,23014,Food price inflation,September,2021,9.993108
+2022-09-01,2022-09-30,23014,Food price inflation,September,2022,84.520668
+2023-09-01,2023-09-30,23014,Food price inflation,September,2023,-4.386335
+2024-09-01,2024-09-30,23014,Food price inflation,September,2024,0.529334
+2001-10-01,2001-10-31,23014,Food price inflation,October,2001,17.718344
+2002-10-01,2002-10-31,23014,Food price inflation,October,2002,10.16082
+2003-10-01,2003-10-31,23014,Food price inflation,October,2003,4.838868
+2004-10-01,2004-10-31,23014,Food price inflation,October,2004,15.189196
+2005-10-01,2005-10-31,23014,Food price inflation,October,2005,14.515906
+2006-10-01,2006-10-31,23014,Food price inflation,October,2006,14.494245
+2007-10-01,2007-10-31,23014,Food price inflation,October,2007,22.869879
+2008-10-01,2008-10-31,23014,Food price inflation,October,2008,25.272503
+2009-10-01,2009-10-31,23014,Food price inflation,October,2009,1.949759
+2010-10-01,2010-10-31,23014,Food price inflation,October,2010,8.089051
+2011-10-01,2011-10-31,23014,Food price inflation,October,2011,6.376878
+2012-10-01,2012-10-31,23014,Food price inflation,October,2012,11.112272
+2013-10-01,2013-10-31,23014,Food price inflation,October,2013,8.393265
+2014-10-01,2014-10-31,23014,Food price inflation,October,2014,5.061913
+2015-10-01,2015-10-31,23014,Food price inflation,October,2015,2.253521
+2016-10-01,2016-10-31,23014,Food price inflation,October,2016,5.23416
+2017-10-01,2017-10-31,23014,Food price inflation,October,2017,14.659686
+2018-10-01,2018-10-31,23014,Food price inflation,October,2018,-6.621005
+2019-10-01,2019-10-31,23014,Food price inflation,October,2019,7.334963
+2020-10-01,2020-10-31,23014,Food price inflation,October,2020,10.55429
+2021-10-01,2021-10-31,23014,Food price inflation,October,2021,11.675824
+2022-10-01,2022-10-31,23014,Food price inflation,October,2022,80.657899
+2023-10-01,2023-10-31,23014,Food price inflation,October,2023,-5.243129
+2001-11-01,2001-11-30,23014,Food price inflation,November,2001,18.642748
+2002-11-01,2002-11-30,23014,Food price inflation,November,2002,11.293153
+2003-11-01,2003-11-30,23014,Food price inflation,November,2003,5.522499
+2004-11-01,2004-11-30,23014,Food price inflation,November,2004,16.365828
+2005-11-01,2005-11-30,23014,Food price inflation,November,2005,11.099701
+2006-11-01,2006-11-30,23014,Food price inflation,November,2006,15.516977
+2007-11-01,2007-11-30,23014,Food price inflation,November,2007,24.403963
+2008-11-01,2008-11-30,23014,Food price inflation,November,2008,20.354006
+2009-11-01,2009-11-30,23014,Food price inflation,November,2009,3.64863
+2010-11-01,2010-11-30,23014,Food price inflation,November,2010,8.580972
+2011-11-01,2011-11-30,23014,Food price inflation,November,2011,5.878041
+2012-11-01,2012-11-30,23014,Food price inflation,November,2012,11.857135
+2013-11-01,2013-11-30,23014,Food price inflation,November,2013,6.969047
+2014-11-01,2014-11-30,23014,Food price inflation,November,2014,7.468795
+2015-11-01,2015-11-30,23014,Food price inflation,November,2015,4.578755
+2016-11-01,2016-11-30,23014,Food price inflation,November,2016,1.488616
+2017-11-01,2017-11-30,23014,Food price inflation,November,2017,15.703192
+2018-11-01,2018-11-30,23014,Food price inflation,November,2018,-3.877703
+2019-11-01,2019-11-30,23014,Food price inflation,November,2019,4.034135
+2020-11-01,2020-11-30,23014,Food price inflation,November,2020,9.395973
+2021-11-01,2021-11-30,23014,Food price inflation,November,2021,16.905249
+2022-11-01,2022-11-30,23014,Food price inflation,November,2022,68.892659
+2023-11-01,2023-11-30,23014,Food price inflation,November,2023,-2.186964
+2001-12-01,2001-12-31,23014,Food price inflation,December,2001,13.517612
+2002-12-01,2002-12-31,23014,Food price inflation,December,2002,14.114947
+2003-12-01,2003-12-31,23014,Food price inflation,December,2003,6.228186
+2004-12-01,2004-12-31,23014,Food price inflation,December,2004,17.308269
+2005-12-01,2005-12-31,23014,Food price inflation,December,2005,6.874611
+2006-12-01,2006-12-31,23014,Food price inflation,December,2006,16.874757
+2007-12-01,2007-12-31,23014,Food price inflation,December,2007,23.61037
+2008-12-01,2008-12-31,23014,Food price inflation,December,2008,17.608197
+2009-12-01,2009-12-31,23014,Food price inflation,December,2009,6.245954
+2010-12-01,2010-12-31,23014,Food price inflation,December,2010,8.486849
+2011-12-01,2011-12-31,23014,Food price inflation,December,2011,6.07218
+2012-12-01,2012-12-31,23014,Food price inflation,December,2012,11.472567
+2013-12-01,2013-12-31,23014,Food price inflation,December,2013,5.795488
+2014-12-01,2014-12-31,23014,Food price inflation,December,2014,11.79904
+2015-12-01,2015-12-31,23014,Food price inflation,December,2015,2.552817
+2016-12-01,2016-12-31,23014,Food price inflation,December,2016,2.317597
+2017-12-01,2017-12-31,23014,Food price inflation,December,2017,12.751678
+2018-12-01,2018-12-31,23014,Food price inflation,December,2018,-4.464286
+2019-12-01,2019-12-31,23014,Food price inflation,December,2019,8.64486
+2020-12-01,2020-12-31,23014,Food price inflation,December,2020,7.455197
+2021-12-01,2021-12-31,23014,Food price inflation,December,2021,21.480987
+2022-12-01,2022-12-31,23014,Food price inflation,December,2022,58.51579
+2023-12-01,2023-12-31,23014,Food price inflation,December,2023,1.635112
