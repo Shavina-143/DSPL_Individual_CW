@@ -88,3 +88,34 @@ def load_data():
         return None
 
 df = load_data()
+
+if df is not None:
+    # Create tabs for different dashboard views
+    tab1, tab2, tab3 = st.tabs(["Overview", "Detailed Analysis", "Economic Indicators"])
+    
+    # Sidebar for filters (applied to all tabs)
+    st.sidebar.markdown("## Filters")
+    
+    # Year range filter
+    min_year = int(df['Year'].min())
+    max_year = int(df['Year'].max())
+    selected_years = st.sidebar.slider(
+        "Select Year Range",
+        min_value=min_year,
+        max_value=max_year,
+        value=(min_year, max_year)
+    )
+    
+    # Item filter
+    item_list = sorted(df['Indicator'].unique())
+    selected_items = st.sidebar.multiselect(
+        "Select Items",
+        options=item_list,
+        default=item_list[:3] if len(item_list) > 3 else item_list
+    )
+    
+    # Apply filters
+    filtered_df = df[(df['Year'] >= selected_years[0]) & 
+                     (df['Year'] <= selected_years[1]) & 
+                     (df['Indicator'].isin(selected_items))]
+    
