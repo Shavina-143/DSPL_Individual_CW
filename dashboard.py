@@ -65,3 +65,6 @@ st.markdown("""
     }
     </style>
     """, unsafe_allow_html=True)
+
+# Dashboard title
+st.markdown('<p class="main-header">Sri Lanka Consumer Price Index Analysis</p>', unsafe_allow_html=True)
