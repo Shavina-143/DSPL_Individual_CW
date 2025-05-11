@@ -68,3 +68,23 @@ st.markdown("""
 
 # Dashboard title
 st.markdown('<p class="main-header">Sri Lanka Consumer Price Index Analysis</p>', unsafe_allow_html=True)
+
+# Load data
+@st.cache_data
+def load_data():
+    try:
+        df = pd.read_csv("cleaned_cpi_sri_lanka.csv")
+        
+        # Convert date columns to datetime
+        df['Start_Date'] = pd.to_datetime(df['Start_Date'])
+        df['End_Date'] = pd.to_datetime(df['End_Date'])
+        
+        # Create a date column for easier plotting (midpoint between start and end)
+        df['Date'] = df['Start_Date'] + (df['End_Date'] - df['Start_Date']) / 2
+        
+        return df
+    except Exception as e:
+        st.error(f"Error loading data: {e}")
+        return None
+
+df = load_data()
