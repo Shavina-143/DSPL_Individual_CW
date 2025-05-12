@@ -119,3 +119,26 @@ if df is not None:
                      (df['Year'] <= selected_years[1]) & 
                      (df['Indicator'].isin(selected_items))]
     
+        # Add comparative analyses
+    if "Item_Code" in filtered_df.columns:
+        # Create item category grouping if applicable
+        item_categories = filtered_df.groupby('Item_Code')['Indicator'].first().to_dict()
+        filtered_df['Category'] = filtered_df['Item_Code'].map(item_categories)
+    
+    # Calculate overall CPI metrics
+    if not filtered_df.empty:
+        latest_date = filtered_df['Date'].max()
+        previous_year_date = latest_date - pd.DateOffset(years=1)
+        
+        latest_data = filtered_df[filtered_df['Date'] == latest_date]
+        previous_year_data = filtered_df[filtered_df['Date'] == previous_year_date]
+        
+        # Calculate overall average CPI
+        current_avg_cpi = latest_data['CPI_Value'].mean()
+        prev_avg_cpi = previous_year_data['CPI_Value'].mean() if not previous_year_data.empty else None
+        
+        # Calculate YoY change
+        if prev_avg_cpi:
+            yoy_change = ((current_avg_cpi - prev_avg_cpi) / prev_avg_cpi) * 100
+        else:
+            yoy_change = None
