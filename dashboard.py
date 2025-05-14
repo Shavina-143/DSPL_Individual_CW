@@ -288,5 +288,45 @@ if df is not None:
             
             # Display the figure
             st.plotly_chart(fig1, use_container_width=True)
+            # Add a line chart option for comparison
+            st.markdown('<p class="sub-header">CPI Line Chart (Alternative View)</p>', unsafe_allow_html=True)
             
+            # Create a line chart for comparison
+            fig1_line = go.Figure()
+            
+            # Add traces for each indicator
+            for i, indicator in enumerate(all_indicators):
+                fig1_line.add_trace(
+                    go.Scatter(
+                        x=pivot_data['Date'],
+                        y=pivot_data[indicator],
+                        name=indicator,
+                        mode='lines',
+                        line=dict(width=2, color=all_colors[i % len(all_colors)]),
+                        hovertemplate='%{x}<br>%{y:.2f}',
+                    )
+                )
+            
+            # Update layout
+            fig1_line.update_layout(
+                height=400,
+                title_text="Line Chart of CPI Trends Over Time",
+                xaxis_title="Date",
+                yaxis_title="CPI Value",
+                legend_title="Categories",
+                hovermode="x unified",
+                template="plotly_white",
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                )
+            )
+            
+            # Display the alternative figure in an expander
+            with st.expander("View Line Chart"):
+                st.plotly_chart(fig1_line, use_container_width=True)
+                
                     
