@@ -356,5 +356,37 @@ if df is not None:
                     """, unsafe_allow_html=True)
         else:
             st.warning("No data available with the selected filters.")
+
+        # Category Comparison
+        col1, col2 = st.columns(2)
+        
+        with col1:
+            st.markdown('<p class="sub-header">Category Comparison</p>', unsafe_allow_html=True)
+            
+            if not filtered_df.empty:
+                # Get average CPI by category for the latest year
+                latest_year = filtered_df['Year'].max()
+                latest_year_data = filtered_df[filtered_df['Year'] == latest_year]
+                
+                category_avg = latest_year_data.groupby('Indicator')['CPI_Value'].mean().sort_values(ascending=False).reset_index()
+                
+                fig2 = px.bar(
+                    category_avg,
+                    x='Indicator',
+                    y='CPI_Value',
+                    title=f'Average CPI by Category ({latest_year})',
+                    labels={'CPI_Value': 'Average CPI', 'Indicator': 'Category'},
+                    template='plotly_white',
+                    color='CPI_Value',
+                    color_continuous_scale=px.colors.sequential.Viridis
+                )
+                fig2.update_layout(
+                    height=400,
+                    coloraxis_showscale=False,
+                    xaxis_tickangle=-45
+                )
+                st.plotly_chart(fig2, use_container_width=True)
+            else:
+                st.warning("No data available with the selected filters.")
             
                     
