@@ -388,5 +388,46 @@ if df is not None:
                 st.plotly_chart(fig2, use_container_width=True)
             else:
                 st.warning("No data available with the selected filters.")
+        with col2:
+            st.markdown('<p class="sub-header">Monthly Distribution</p>', unsafe_allow_html=True)
             
+            if not filtered_df.empty:
+                # Monthly distribution of CPI values
+                monthly_data = filtered_df.copy()
+                
+                # Create box plot for monthly distribution
+                fig3 = px.box(
+                    monthly_data,
+                    x='Month',
+                    y='CPI_Value',
+                    title='Monthly Distribution of CPI Values',
+                    labels={'CPI_Value': 'CPI Value', 'Month': 'Month'},
+                    template='plotly_white',
+                    color='Month'
+                )
+                
+                # Define month order
+                months_order = ['January', 'February', 'March', 'April', 'May', 'June', 
+                               'July', 'August', 'September', 'October', 'November', 'December']
+                
+                fig3.update_layout(
+                    height=400,
+                    xaxis={'categoryorder':'array', 'categoryarray': months_order},
+                    showlegend=False
+                )
+                st.plotly_chart(fig3, use_container_width=True)
+                
+                # Identify months with highest and lowest values
+                monthly_avg = monthly_data.groupby('Month')['CPI_Value'].mean()
+                highest_month = monthly_avg.idxmax()
+                lowest_month = monthly_avg.idxmin()
+                
+                st.markdown(f"""
+                    <div class="insight-box">
+                        <strong>Seasonal Patterns:</strong> {highest_month} typically shows the highest CPI values, 
+                        while {lowest_month} shows the lowest. This suggests potential seasonal factors affecting prices in Sri Lanka.
+                    </div>
+                """, unsafe_allow_html=True)
+            else:
+                st.warning("No data available with the selected filters.")    
                     
