@@ -679,4 +679,88 @@ if df is not None:
                 st.warning("Not enough data points for seasonal decomposition. Need at least 12 months of data.")
         else:
             st.warning("No data available with the selected filters.")
-             
+    # TAB 3: ECONOMIC INDICATORS
+    with tab3:
+        # CPI Distribution Analysis
+st.markdown('<p class="sub-header">CPI Distribution Analysis</p>', unsafe_allow_html=True)
+
+if not filtered_df.empty:
+    # Create histograms for each time period
+    period_col1, period_col2 = st.columns(2)
+    
+    with period_col1:
+        # Get most recent year's data
+        latest_year = filtered_df['Year'].max()
+        latest_year_data = filtered_df[filtered_df['Year'] == latest_year]
+        
+        # Create histogram
+        fig8 = px.histogram(
+            latest_year_data,
+            x='CPI_Value',
+            color='Indicator',
+            title=f'CPI Distribution for {latest_year}',
+            labels={'CPI_Value': 'CPI Value', 'count': 'Frequency'},
+            template='plotly_white',
+            opacity=0.7,
+            barmode='overlay'
+        )
+        
+        fig8.update_layout(
+            height=400,
+            legend_title_text='Categories',
+            bargap=0.1
+        )
+        
+        st.plotly_chart(fig8, use_container_width=True)
+    
+    with period_col2:
+        # Get earliest year's data for comparison
+        earliest_year = filtered_df['Year'].min()
+        earliest_year_data = filtered_df[filtered_df['Year'] == earliest_year]
+        
+        # Create histogram
+        fig9 = px.histogram(
+            earliest_year_data,
+            x='CPI_Value',
+            color='Indicator',
+            title=f'CPI Distribution for {earliest_year}',
+            labels={'CPI_Value': 'CPI Value', 'count': 'Frequency'},
+            template='plotly_white',
+            opacity=0.7,
+            barmode='overlay'
+        )
+        
+        fig9.update_layout(
+            height=400,
+            legend_title_text='Categories',
+            bargap=0.1
+        )
+        
+        st.plotly_chart(fig9, use_container_width=True)
+    
+    # Skewness and kurtosis analysis
+    if not latest_year_data.empty and not earliest_year_data.empty:
+        latest_skew = stats.skew(latest_year_data['CPI_Value'].dropna())
+        earliest_skew = stats.skew(earliest_year_data['CPI_Value'].dropna())
+        
+        latest_kurt = stats.kurtosis(latest_year_data['CPI_Value'].dropna())
+        earliest_kurt = stats.kurtosis(earliest_year_data['CPI_Value'].dropna())
+        
+        # Interpret skewness
+        if latest_skew > 0.5:
+            skew_interpretation = "positively skewed (many lower values with few high outliers)"
+        elif latest_skew < -0.5:
+            skew_interpretation = "negatively skewed (many higher values with few low outliers)"
+        else:
+            skew_interpretation = "approximately symmetric"
+        
+        st.markdown(f"""
+            <div class="insight-box">
+                <strong>Distribution Analysis:</strong> The current CPI distribution is {skew_interpretation}. 
+                From {earliest_year} to {latest_year}, the distribution's skewness changed from {earliest_skew:.2f} to {latest_skew:.2f}, 
+                indicating a shift in how prices are distributed across categories. This suggests 
+                {"more price outliers" if abs(latest_skew) > abs(earliest_skew) else "more uniform pricing"} in recent periods.
+            </div>
+        """, unsafe_allow_html=True)
+else:
+    st.warning("No data available with the selected filters.")
