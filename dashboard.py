@@ -119,7 +119,7 @@ if df is not None:
                      (df['Year'] <= selected_years[1]) & 
                      (df['Indicator'].isin(selected_items))]
     
-        # Add comparative analyses
+    # Add comparative analyses
     if "Item_Code" in filtered_df.columns:
         # Create item category grouping if applicable
         item_categories = filtered_df.groupby('Item_Code')['Indicator'].first().to_dict()
@@ -142,6 +142,7 @@ if df is not None:
             yoy_change = ((current_avg_cpi - prev_avg_cpi) / prev_avg_cpi) * 100
         else:
             yoy_change = None
+    
     # TAB 1: OVERVIEW
     with tab1:
         # Key Metrics Row
@@ -288,6 +289,7 @@ if df is not None:
             
             # Display the figure
             st.plotly_chart(fig1, use_container_width=True)
+            
             # Add a line chart option for comparison
             st.markdown('<p class="sub-header">CPI Line Chart (Alternative View)</p>', unsafe_allow_html=True)
             
@@ -328,10 +330,6 @@ if df is not None:
             # Display the alternative figure in an expander
             with st.expander("View Line Chart"):
                 st.plotly_chart(fig1_line, use_container_width=True)
-
-                # Display the alternative figure in an expander
-            with st.expander("View Line Chart"):
-                st.plotly_chart(fig1_line, use_container_width=True)
             
             # Add insights about the trends
             if not filtered_df.empty:
@@ -356,7 +354,7 @@ if df is not None:
                     """, unsafe_allow_html=True)
         else:
             st.warning("No data available with the selected filters.")
-
+        
         # Category Comparison
         col1, col2 = st.columns(2)
         
@@ -388,6 +386,7 @@ if df is not None:
                 st.plotly_chart(fig2, use_container_width=True)
             else:
                 st.warning("No data available with the selected filters.")
+        
         with col2:
             st.markdown('<p class="sub-header">Monthly Distribution</p>', unsafe_allow_html=True)
             
@@ -429,8 +428,9 @@ if df is not None:
                     </div>
                 """, unsafe_allow_html=True)
             else:
-                st.warning("No data available with the selected filters.")    
-        # TAB 2: DETAILED ANALYSIS
+                st.warning("No data available with the selected filters.")
+    
+    # TAB 2: DETAILED ANALYSIS
     with tab2:
         # Inflation Rate Analysis
         st.markdown('<p class="sub-header">Inflation Rate Analysis</p>', unsafe_allow_html=True)
@@ -497,8 +497,8 @@ if df is not None:
             """, unsafe_allow_html=True)
         else:
             st.warning("No data available with the selected filters.")
-
-                # Correlation Analysis
+        
+        # Correlation Analysis
         st.markdown('<p class="sub-header">Category Correlation Analysis</p>', unsafe_allow_html=True)
         
         if not filtered_df.empty and len(selected_items) > 1:
@@ -555,6 +555,7 @@ if df is not None:
                 """, unsafe_allow_html=True)
         else:
             st.warning("Select at least two categories for correlation analysis.")
+        
         # Seasonal Decomposition
         st.markdown('<p class="sub-header">Seasonal Decomposition Analysis</p>', unsafe_allow_html=True)
         
@@ -679,349 +680,361 @@ if df is not None:
                 st.warning("Not enough data points for seasonal decomposition. Need at least 12 months of data.")
         else:
             st.warning("No data available with the selected filters.")
+    
     # TAB 3: ECONOMIC INDICATORS
     with tab3:
         # CPI Distribution Analysis
-st.markdown('<p class="sub-header">CPI Distribution Analysis</p>', unsafe_allow_html=True)
-
-if not filtered_df.empty:
-    # Create histograms for each time period
-    period_col1, period_col2 = st.columns(2)
-    
-    with period_col1:
-        # Get most recent year's data
-        latest_year = filtered_df['Year'].max()
-        latest_year_data = filtered_df[filtered_df['Year'] == latest_year]
+        st.markdown('<p class="sub-header">CPI Distribution Analysis</p>', unsafe_allow_html=True)
         
-        # Create histogram
-        fig8 = px.histogram(
-            latest_year_data,
-            x='CPI_Value',
-            color='Indicator',
-            title=f'CPI Distribution for {latest_year}',
-            labels={'CPI_Value': 'CPI Value', 'count': 'Frequency'},
-            template='plotly_white',
-            opacity=0.7,
-            barmode='overlay'
-        )
-        
-        fig8.update_layout(
-            height=400,
-            legend_title_text='Categories',
-            bargap=0.1
-        )
-        
-        st.plotly_chart(fig8, use_container_width=True)
-    
-    with period_col2:
-        # Get earliest year's data for comparison
-        earliest_year = filtered_df['Year'].min()
-        earliest_year_data = filtered_df[filtered_df['Year'] == earliest_year]
-        
-        # Create histogram
-        fig9 = px.histogram(
-            earliest_year_data,
-            x='CPI_Value',
-            color='Indicator',
-            title=f'CPI Distribution for {earliest_year}',
-            labels={'CPI_Value': 'CPI Value', 'count': 'Frequency'},
-            template='plotly_white',
-            opacity=0.7,
-            barmode='overlay'
-        )
-        
-        fig9.update_layout(
-            height=400,
-            legend_title_text='Categories',
-            bargap=0.1
-        )
-        
-        st.plotly_chart(fig9, use_container_width=True)
-    
-    # Skewness and kurtosis analysis
-    if not latest_year_data.empty and not earliest_year_data.empty:
-        latest_skew = stats.skew(latest_year_data['CPI_Value'].dropna())
-        earliest_skew = stats.skew(earliest_year_data['CPI_Value'].dropna())
-        
-        latest_kurt = stats.kurtosis(latest_year_data['CPI_Value'].dropna())
-        earliest_kurt = stats.kurtosis(earliest_year_data['CPI_Value'].dropna())
-        
-        # Interpret skewness
-        if latest_skew > 0.5:
-            skew_interpretation = "positively skewed (many lower values with few high outliers)"
-        elif latest_skew < -0.5:
-            skew_interpretation = "negatively skewed (many higher values with few low outliers)"
+        if not filtered_df.empty:
+            # Create histograms for each time period
+            period_col1, period_col2 = st.columns(2)
+            
+            with period_col1:
+                # Get most recent year's data
+                latest_year = filtered_df['Year'].max()
+                latest_year_data = filtered_df[filtered_df['Year'] == latest_year]
+                
+                # Create histogram
+                fig8 = px.histogram(
+                    latest_year_data,
+                    x='CPI_Value',
+                    color='Indicator',
+                    title=f'CPI Distribution for {latest_year}',
+                    labels={'CPI_Value': 'CPI Value', 'count': 'Frequency'},
+                    template='plotly_white',
+                    opacity=0.7,
+                    barmode='overlay'
+                )
+                
+                fig8.update_layout(
+                    height=400,
+                    legend_title_text='Categories',
+                    bargap=0.1
+                )
+                
+                st.plotly_chart(fig8, use_container_width=True)
+            
+            with period_col2:
+                # Get earliest year's data for comparison
+                earliest_year = filtered_df['Year'].min()
+                earliest_year_data = filtered_df[filtered_df['Year'] == earliest_year]
+                
+                # Create histogram
+                fig9 = px.histogram(
+                    earliest_year_data,
+                    x='CPI_Value',
+                    color='Indicator',
+                    title=f'CPI Distribution for {earliest_year}',
+                    labels={'CPI_Value': 'CPI Value', 'count': 'Frequency'},
+                    template='plotly_white',
+                    opacity=0.7,
+                    barmode='overlay'
+                )
+                
+                fig9.update_layout(
+                    height=400,
+                    legend_title_text='Categories',
+                    bargap=0.1
+                )
+                
+                st.plotly_chart(fig9, use_container_width=True)
+            
+            # Skewness and kurtosis analysis
+            if not latest_year_data.empty and not earliest_year_data.empty:
+                latest_skew = stats.skew(latest_year_data['CPI_Value'].dropna())
+                earliest_skew = stats.skew(earliest_year_data['CPI_Value'].dropna())
+                
+                latest_kurt = stats.kurtosis(latest_year_data['CPI_Value'].dropna())
+                earliest_kurt = stats.kurtosis(earliest_year_data['CPI_Value'].dropna())
+                
+                # Interpret skewness
+                if latest_skew > 0.5:
+                    skew_interpretation = "positively skewed (many lower values with few high outliers)"
+                elif latest_skew < -0.5:
+                    skew_interpretation = "negatively skewed (many higher values with few low outliers)"
+                else:
+                    skew_interpretation = "approximately symmetric"
+                
+                st.markdown(f"""
+                    <div class="insight-box">
+                        <strong>Distribution Analysis:</strong> The current CPI distribution is {skew_interpretation}. 
+                        From {earliest_year} to {latest_year}, the distribution's skewness changed from {earliest_skew:.2f} to {latest_skew:.2f}, 
+                        indicating a shift in how prices are distributed across categories. This suggests 
+                        {"more price outliers" if abs(latest_skew) > abs(earliest_skew) else "more uniform pricing"} in recent periods.
+                    </div>
+                """, unsafe_allow_html=True)
         else:
-            skew_interpretation = "approximately symmetric"
+            st.warning("No data available with the selected filters.")
         
-        st.markdown(f"""
-            <div class="insight-box">
-                <strong>Distribution Analysis:</strong> The current CPI distribution is {skew_interpretation}. 
-                From {earliest_year} to {latest_year}, the distribution's skewness changed from {earliest_skew:.2f} to {latest_skew:.2f}, 
-                indicating a shift in how prices are distributed across categories. This suggests 
-                {"more price outliers" if abs(latest_skew) > abs(earliest_skew) else "more uniform pricing"} in recent periods.
-            </div>
-        """, unsafe_allow_html=True)
-else:
-    st.warning("No data available with the selected filters.")
-
-    # Volatility Analysis
-st.markdown('<p class="sub-header">Price Volatility Analysis</p>', unsafe_allow_html=True)
-
-if not filtered_df.empty:
-    # Calculate rolling standard deviation (volatility) for each indicator
-    volatility_data = []
+        # Volatility Analysis
+        st.markdown('<p class="sub-header">Price Volatility Analysis</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty:
+            # Calculate rolling standard deviation (volatility) for each indicator
+            volatility_data = []
+            
+            for indicator in filtered_df['Indicator'].unique():
+                indicator_data = filtered_df[filtered_df['Indicator'] == indicator].copy()
+                indicator_data = indicator_data.sort_values('Date')
+                
+                # Calculate rolling 3-period standard deviation
+                if len(indicator_data) >= 3:
+                    indicator_data['Volatility'] = indicator_data['CPI_Value'].rolling(window=3).std()
+                    volatility_data.append(indicator_data)
+            
+            volatility_df = pd.concat(volatility_data)
+            volatility_df = volatility_df.dropna(subset=['Volatility'])
+            
+            if not volatility_df.empty:
+                # Plot volatility over time
+                fig10 = px.line(
+                    volatility_df,
+                    x='Date',
+                    y='Volatility',
+                    color='Indicator',
+                    title='Price Volatility Over Time (Rolling 3-Period Standard Deviation)',
+                    labels={'Volatility': 'Volatility (Std Dev)', 'Date': 'Date'},
+                    template='plotly_white'
+                )
+                
+                fig10.update_layout(
+                    height=400,
+                    legend_title_text='Categories',
+                    hovermode='x unified'
+                )
+                
+                st.plotly_chart(fig10, use_container_width=True)
+                
+                # Calculate average volatility by indicator
+                avg_volatility = volatility_df.groupby('Indicator')['Volatility'].mean().sort_values(ascending=False).reset_index()
+                
+                # Plot average volatility by category
+                fig11 = px.bar(
+                    avg_volatility,
+                    x='Indicator',
+                    y='Volatility',
+                    title='Average Price Volatility by Category',
+                    labels={'Volatility': 'Average Volatility', 'Indicator': 'Category'},
+                    template='plotly_white',
+                    color='Volatility',
+                    color_continuous_scale=px.colors.sequential.Reds
+                )
+                
+                fig11.update_layout(
+                    height=400,
+                    coloraxis_showscale=False,
+                    xaxis_tickangle=-45
+                )
+                
+                st.plotly_chart(fig11, use_container_width=True)
+                
+                # Add insights about volatility
+                most_volatile = avg_volatility['Indicator'].iloc[0]
+                least_volatile = avg_volatility['Indicator'].iloc[-1]
+                
+                st.markdown(f"""
+                    <div class="insight-box">
+                        <strong>Volatility Analysis:</strong> {most_volatile} shows the highest price volatility, 
+                        suggesting less predictable price movements. This may indicate supply chain issues, seasonal availability, 
+                        or market disruptions. In contrast, {least_volatile} shows the most stable prices, which may reflect 
+                        more consistent supply, government price controls, or stable demand patterns.
+                    </div>
+                """, unsafe_allow_html=True)
+            else:
+                st.warning("Not enough data points to calculate volatility.")
+        else:
+            st.warning("No data available with the selected filters.")
+        
+        # Extreme Value Analysis
+        st.markdown('<p class="sub-header">Extreme Value Analysis</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty:
+            # Find extreme values (outliers) in the data
+            # Calculate z-scores
+            z_score_df = filtered_df.copy()
+            z_score_df['z_score'] = (z_score_df['CPI_Value'] - z_score_df['CPI_Value'].mean()) / z_score_df['CPI_Value'].std()
+            
+            # Define outliers (z-score > 2 or < -2)
+            outliers = z_score_df[abs(z_score_df['z_score']) > 2].copy()
+            
+            if not outliers.empty:
+                # Add columns for highlighting purposes
+                outliers['Direction'] = np.where(outliers['z_score'] > 0, 'High', 'Low')
+                
+                # Sort by absolute z-score (most extreme first)
+                outliers = outliers.sort_values(by='z_score', key=abs, ascending=False)
+                
+                # Show outliers in a scatter plot
+                fig12 = px.scatter(
+                    outliers,
+                    x='Date',
+                    y='CPI_Value',
+                    color='Direction',
+                    size=abs(outliers['z_score']),
+                    hover_data=['Indicator', 'z_score'],
+                    title='Extreme CPI Values (Outliers)',
+                    labels={'CPI_Value': 'CPI Value', 'Date': 'Date'},
+                    template='plotly_white',
+                    color_discrete_map={'High': 'red', 'Low': 'blue'}
+                )
+                
+                fig12.update_layout(
+                    height=400,
+                    legend_title_text='Direction',
+                    hovermode='closest'
+                )
+                
+                st.plotly_chart(fig12, use_container_width=True)
+                
+                # Display outlier details in a table
+                outlier_table = outliers[['Date', 'Indicator', 'CPI_Value', 'z_score', 'Direction']].head(10)
+                outlier_table['z_score'] = outlier_table['z_score'].round(2)
+                outlier_table['Date'] = outlier_table['Date'].dt.strftime('%Y-%m-%d')
+                
+                st.markdown('<p class="sub-header">Top 10 Most Extreme CPI Values</p>', unsafe_allow_html=True)
+                st.dataframe(outlier_table, use_container_width=True, hide_index=True)
+                
+                # Add insights about extreme values
+                outlier_categories = outliers['Indicator'].value_counts()
+                most_outliers_category = outlier_categories.idxmax()
+                
+                st.markdown(f"""
+                    <div class="insight-box">
+                        <strong>Extreme Value Analysis:</strong> {most_outliers_category} shows the highest number of outliers ({outlier_categories.max()}) 
+                        in the dataset. Extreme values can indicate special events, market disruptions, policy changes, or data collection issues. 
+                        Decision-makers should investigate these periods to understand the underlying causes and potential economic impacts.
+                    </div>
+                """, unsafe_allow_html=True)
+            else:
+                st.warning("No extreme values detected in the current dataset.")
+        else:
+            st.warning("No data available with the selected filters.")
+        
+        # Policy Impact Analysis
+        st.markdown('<p class="sub-header">Potential Policy Impact Analysis</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty:
+            # Calculate year-over-year changes for each indicator
+            yoy_changes = []
+            
+            for indicator in filtered_df['Indicator'].unique():
+                indicator_data = filtered_df[filtered_df['Indicator'] == indicator].copy()
+                
+                # Group by year
+                yearly_avg = indicator_data.groupby('Year')['CPI_Value'].mean().reset_index()
+                
+                # Calculate YoY changes
+                yearly_avg['YoY_Change'] = yearly_avg['CPI_Value'].pct_change() * 100
+                yearly_avg['Indicator'] = indicator
+                
+                yoy_changes.append(yearly_avg)
+            
+            yoy_df = pd.concat(yoy_changes)
+            yoy_df = yoy_df.dropna(subset=['YoY_Change'])
+            
+            if not yoy_df.empty:
+                # Create heatmap of YoY changes
+                pivot_yoy = yoy_df.pivot(index='Year', columns='Indicator', values='YoY_Change')
+                
+                fig13 = px.imshow(
+                    pivot_yoy,
+                    labels=dict(x="Category", y="Year", color="YoY Change (%)"),
+                    x=pivot_yoy.columns,
+                    y=pivot_yoy.index,
+                    aspect="auto",
+                    title='Year-over-Year CPI Changes by Category',
+                    color_continuous_scale='RdBu_r',
+                    zmin=-10,  # Set reasonable limits for better color distribution
+                    zmax=10
+                )
+                fig13.update_layout(height=400, xaxis_tickangle=-45)
+                
+                st.plotly_chart(fig13, use_container_width=True)
+                
+                # Calculate average YoY change by category
+                avg_yoy = yoy_df.groupby('Indicator')['YoY_Change'].mean().sort_values(ascending=False).reset_index()
+                
+                # Plot average annual inflation by category
+                fig14 = px.bar(
+                    avg_yoy,
+                    x='Indicator',
+                    y='YoY_Change',
+                    title='Average Annual Inflation by Category',
+                    labels={'YoY_Change': 'Avg. Annual Change (%)', 'Indicator': 'Category'},
+                    template='plotly_white',
+                    color='YoY_Change',
+                    color_continuous_scale='RdBu_r',
+                    color_continuous_midpoint=0
+                )
+                
+                fig14.update_layout(
+                    height=400,
+                    xaxis_tickangle=-45
+                )
+                
+                st.plotly_chart(fig14, use_container_width=True)
+                
+                # Policy recommendations based on data
+                highest_inflation = avg_yoy['Indicator'].iloc[0]
+                lowest_inflation = avg_yoy['Indicator'].iloc[-1]
+                
+                st.markdown(f"""
+                    <div class="insight-box">
+                        <strong>Policy Implications:</strong><br>
+                        <ul>
+                            <li><strong>High Inflation Areas:</strong> {highest_inflation} shows the highest average annual inflation 
+                            ({avg_yoy['YoY_Change'].iloc[0]:.2f}%). Policymakers might consider supply-side interventions, targeted subsidies, 
+                            or import policies to address price pressures in this category.</li>
+                            <li><strong>Low Inflation/Deflation Areas:</strong> {lowest_inflation} shows the lowest inflation rate 
+                            ({avg_yoy['YoY_Change'].iloc[-1]:.2f}%). This could indicate oversupply, decreasing demand, or effective price controls. 
+                            If this rate is negative, it might warrant economic stimulus in this sector.</li>
+                            <li><strong>Targeted Interventions:</strong> The heatmap highlights years and categories with exceptional inflation, 
+                            suggesting where and when policy interventions might have been needed or were effective.</li>
+                        </ul>
+                    </div>
+                """, unsafe_allow_html=True)
+            else:
+                st.warning("Not enough data points to calculate year-over-year changes.")
+        else:
+            st.warning("No data available with the selected filters.")
     
-    for indicator in filtered_df['Indicator'].unique():
-        indicator_data = filtered_df[filtered_df['Indicator'] == indicator].copy()
-        indicator_data = indicator_data.sort_values('Date')
-        
-        # Calculate rolling 3-period standard deviation
-        if len(indicator_data) >= 3:
-            indicator_data['Volatility'] = indicator_data['CPI_Value'].rolling(window=3).std()
-            volatility_data.append(indicator_data)
-    
-    volatility_df = pd.concat(volatility_data)
-    volatility_df = volatility_df.dropna(subset=['Volatility'])
-    
-    if not volatility_df.empty:
-        # Plot volatility over time
-        fig10 = px.line(
-            volatility_df,
-            x='Date',
-            y='Volatility',
-            color='Indicator',
-            title='Price Volatility Over Time (Rolling 3-Period Standard Deviation)',
-            labels={'Volatility': 'Volatility (Std Dev)', 'Date': 'Date'},
-            template='plotly_white'
-        )
-        
-        fig10.update_layout(
-            height=400,
-            legend_title_text='Categories',
-            hovermode='x unified'
-        )
-        
-        st.plotly_chart(fig10, use_container_width=True)
-        
-        # Calculate average volatility by indicator
-        avg_volatility = volatility_df.groupby('Indicator')['Volatility'].mean().sort_values(ascending=False).reset_index()
-        
-        # Plot average volatility by category
-        fig11 = px.bar(
-            avg_volatility,
-            x='Indicator',
-            y='Volatility',
-            title='Average Price Volatility by Category',
-            labels={'Volatility': 'Average Volatility', 'Indicator': 'Category'},
-            template='plotly_white',
-            color='Volatility',
-            color_continuous_scale=px.colors.sequential.Reds
-        )
-        
-        fig11.update_layout(
-            height=400,
-            coloraxis_showscale=False,
-            xaxis_tickangle=-45
-        )
-        
-        st.plotly_chart(fig11, use_container_width=True)
-        
-        # Add insights about volatility
-        most_volatile = avg_volatility['Indicator'].iloc[0]
-        least_volatile = avg_volatility['Indicator'].iloc[-1]
-        
-        st.markdown(f"""
-            <div class="insight-box">
-                <strong>Volatility Analysis:</strong> {most_volatile} shows the highest price volatility, 
-                suggesting less predictable price movements. This may indicate supply chain issues, seasonal availability, 
-                or market disruptions. In contrast, {least_volatile} shows the most stable prices, which may reflect 
-                more consistent supply, government price controls, or stable demand patterns.
-            </div>
-        """, unsafe_allow_html=True)
-    else:
-        st.warning("Not enough data points to calculate volatility.")
-else:
-    st.warning("No data available with the selected filters.")
-
-    # Extreme Value Analysis
-st.markdown('<p class="sub-header">Extreme Value Analysis</p>', unsafe_allow_html=True)
-
-if not filtered_df.empty:
-    # Find extreme values (outliers) in the data
-    # Calculate z-scores
-    z_score_df = filtered_df.copy()
-    z_score_df['z_score'] = (z_score_df['CPI_Value'] - z_score_df['CPI_Value'].mean()) / z_score_df['CPI_Value'].std()
-    
-    # Define outliers (z-score > 2 or < -2)
-    outliers = z_score_df[abs(z_score_df['z_score']) > 2].copy()
-    
-    if not outliers.empty:
-        # Add columns for highlighting purposes
-        outliers['Direction'] = np.where(outliers['z_score'] > 0, 'High', 'Low')
-        
-        # Sort by absolute z-score (most extreme first)
-        outliers = outliers.sort_values(by='z_score', key=abs, ascending=False)
-        
-        # Show outliers in a scatter plot
-        fig12 = px.scatter(
-            outliers,
-            x='Date',
-            y='CPI_Value',
-            color='Direction',
-            size=abs(outliers['z_score']),
-            hover_data=['Indicator', 'z_score'],
-            title='Extreme CPI Values (Outliers)',
-            labels={'CPI_Value': 'CPI Value', 'Date': 'Date'},
-            template='plotly_white',
-            color_discrete_map={'High': 'red', 'Low': 'blue'}
-        )
-        
-        fig12.update_layout(
-            height=400,
-            legend_title_text='Direction',
-            hovermode='closest'
-        )
-        
-        st.plotly_chart(fig12, use_container_width=True)
-        
-        # Display outlier details in a table
-        outlier_table = outliers[['Date', 'Indicator', 'CPI_Value', 'z_score', 'Direction']].head(10)
-        outlier_table['z_score'] = outlier_table['z_score'].round(2)
-        outlier_table['Date'] = outlier_table['Date'].dt.strftime('%Y-%m-%d')
-        
-        st.markdown('<p class="sub-header">Top 10 Most Extreme CPI Values</p>', unsafe_allow_html=True)
-        st.dataframe(outlier_table, use_container_width=True, hide_index=True)
-        
-        # Add insights about extreme values
-        outlier_categories = outliers['Indicator'].value_counts()
-        most_outliers_category = outlier_categories.idxmax()
-        
-        st.markdown(f"""
-            <div class="insight-box">
-                <strong>Extreme Value Analysis:</strong> {most_outliers_category} shows the highest number of outliers ({outlier_categories.max()}) 
-                in the dataset. Extreme values can indicate special events, market disruptions, policy changes, or data collection issues. 
-                Decision-makers should investigate these periods to understand the underlying causes and potential economic impacts.
-            </div>
-        """, unsafe_allow_html=True)
-    else:
-        st.warning("No extreme values detected in the current dataset.")
-else:
-    st.warning("No data available with the selected filters.")
-
-    # Policy Impact Analysis
-st.markdown('<p class="sub-header">Potential Policy Impact Analysis</p>', unsafe_allow_html=True)
-
-if not filtered_df.empty:
-    # Calculate year-over-year changes for each indicator
-    yoy_changes = []
-    
-    for indicator in filtered_df['Indicator'].unique():
-        indicator_data = filtered_df[filtered_df['Indicator'] == indicator].copy()
-        
-        # Group by year
-        yearly_avg = indicator_data.groupby('Year')['CPI_Value'].mean().reset_index()
-        
-        # Calculate YoY changes
-        yearly_avg['YoY_Change'] = yearly_avg['CPI_Value'].pct_change() * 100
-        yearly_avg['Indicator'] = indicator
-        
-        yoy_changes.append(yearly_avg)
-    
-    yoy_df = pd.concat(yoy_changes)
-    yoy_df = yoy_df.dropna(subset=['YoY_Change'])
-    
-    if not yoy_df.empty:
-        # Create heatmap of YoY changes
-        pivot_yoy = yoy_df.pivot(index='Year', columns='Indicator', values='YoY_Change')
-        
-        fig13 = px.imshow(
-            pivot_yoy,
-            labels=dict(x="Category", y="Year", color="YoY Change (%)"),
-            x=pivot_yoy.columns,
-            y=pivot_yoy.index,
-            aspect="auto",
-            title='Year-over-Year CPI Changes by Category',
-            color_continuous_scale='RdBu_r',
-            zmin=-10,  # Set reasonable limits for better color distribution
-            zmax=10
-        )
-        fig13.update_layout(height=400, xaxis_tickangle=-45)
-        
-        st.plotly_chart(fig13, use_container_width=True)
-        
-        # Calculate average YoY change by category
-        avg_yoy = yoy_df.groupby('Indicator')['YoY_Change'].mean().sort_values(ascending=False).reset_index()
-        
-        # Plot average annual inflation by category
-        fig14 = px.bar(
-            avg_yoy,
-            x='Indicator',
-            y='YoY_Change',
-            title='Average Annual Inflation by Category',
-            labels={'YoY_Change': 'Avg. Annual Change (%)', 'Indicator': 'Category'},
-            template='plotly_white',
-            color='YoY_Change',
-            color_continuous_scale='RdBu_r',
-            color_continuous_midpoint=0
-        )
-        
-        fig14.update_layout(
-            height=400,
-            xaxis_tickangle=-45
-        )
-        
-        st.plotly_chart(fig14, use_container_width=True)
-        
-        # Policy recommendations based on data
-        highest_inflation = avg_yoy['Indicator'].iloc[0]
-        lowest_inflation = avg_yoy['Indicator'].iloc[-1]
-        
-        st.markdown(f"""
-            <div class="insight-box">
-                <strong>Policy Implications:</strong><br>
-                <ul>
-                    <li><strong>High Inflation Areas:</strong> {highest_inflation} shows the highest average annual inflation 
-                    ({avg_yoy['YoY_Change'].iloc[0]:.2f}%). Policymakers might consider supply-side interventions, targeted subsidies, 
-                    or import policies to address price pressures in this category.</li>
-                    <li><strong>Low Inflation/Deflation Areas:</strong> {lowest_inflation} shows the lowest inflation rate 
-                    ({avg_yoy['YoY_Change'].iloc[-1]:.2f}%). This could indicate oversupply, decreasing demand, or effective price controls. 
-                    If this rate is negative, it might warrant economic stimulus in this sector.</li>
-                    <li><strong>Targeted Interventions:</strong> The heatmap highlights years and categories with exceptional inflation, 
-                    suggesting where and when policy interventions might have been needed or were effective.</li>
-                </ul>
-            </div>
-        """, unsafe_allow_html=True)
-    else:
-        st.warning("Not enough data points to calculate year-over-year changes.")
-else:
-    st.warning("No data available with the selected filters.")
-
     # Data Summary Table (shown on all tabs)
-with st.expander("View Data Summary"):
+    with st.expander("View Data Summary"):
+        if not filtered_df.empty:
+            # Get statistics for the filtered dataset
+            summary_df = filtered_df.groupby('Indicator')['CPI_Value'].agg(['mean', 'min', 'max', 'std', 'count']).reset_index()
+            summary_df.columns = ['Item', 'Average CPI', 'Minimum CPI', 'Maximum CPI', 'Standard Deviation', 'Data Points']
+            
+            # Format to 2 decimal places
+            for col in ['Average CPI', 'Minimum CPI', 'Maximum CPI', 'Standard Deviation']:
+                summary_df[col] = summary_df[col].round(2)
+            
+            st.dataframe(summary_df, use_container_width=True, hide_index=True)
+        else:
+            st.warning("No data available with the selected filters.")
+    
+    # Show raw data (expandable)
+    with st.expander("View Raw Data"):
+        st.dataframe(filtered_df, use_container_width=True)
+    
+    # Data download option
     if not filtered_df.empty:
-        # Get statistics for the filtered dataset
-        summary_df = filtered_df.groupby('Indicator')['CPI_Value'].agg(['mean', 'min', 'max', 'std', 'count']).reset_index()
-        summary_df.columns = ['Item', 'Average CPI', 'Minimum CPI', 'Maximum CPI', 'Standard Deviation', 'Data Points']
-        
-        # Format to 2 decimal places
-        for col in ['Average CPI', 'Minimum CPI', 'Maximum CPI', 'Standard Deviation']:
-            summary_df[col] = summary_df[col].round(2)
-        
-        st.dataframe(summary_df, use_container_width=True, hide_index=True)
-    else:
-        st.warning("No data available with the selected filters.")
+        csv = filtered_df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="Download Filtered Data as CSV",
+            data=csv,
+            file_name="sri_lanka_cpi_filtered_data.csv",
+            mime="text/csv",
+        )
 
-# Show raw data (expandable)
-with st.expander("View Raw Data"):
-    st.dataframe(filtered_df, use_container_width=True)
+else:
+    st.error("Failed to load data. Please check your data file.")
 
-# Data download option
-if not filtered_df.empty:
-    csv = filtered_df.to_csv(index=False).encode('utf-8')
-    st.download_button(
-        label="Download Filtered Data as CSV",
-        data=csv,
-        file_name="sri_lanka_cpi_filtered_data.csv",
-        mime="text/csv",
-    )
+# Footer
+st.markdown("---")
+st.markdown("""
+    <div style='text-align: center;'>
+        <p>Sri Lanka CPI Dashboard | Data Science Project Lifecycle | University of Westminster</p>
+    </div>
+""", unsafe_allow_html=True)
