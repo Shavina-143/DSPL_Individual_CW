@@ -430,4 +430,71 @@ if df is not None:
                 """, unsafe_allow_html=True)
             else:
                 st.warning("No data available with the selected filters.")    
-                    
+        # TAB 2: DETAILED ANALYSIS
+    with tab2:
+        # Inflation Rate Analysis
+        st.markdown('<p class="sub-header">Inflation Rate Analysis</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty:
+            # Calculate monthly inflation rates for each indicator
+            # Group by date and indicator to get average CPI values
+            monthly_avg = filtered_df.groupby(['Year', 'Month', 'Indicator'])['CPI_Value'].mean().reset_index()
+            
+            # Sort by year and month
+            months_order = {month: i for i, month in enumerate(['January', 'February', 'March', 'April', 'May', 'June', 
+                                                          'July', 'August', 'September', 'October', 'November', 'December'])}
+            
+            monthly_avg['Month_Num'] = monthly_avg['Month'].map(months_order)
+            monthly_avg = monthly_avg.sort_values(['Year', 'Month_Num'])
+            
+            # Calculate inflation rate (% change from previous period)
+            inflation_data = []
+            
+            for indicator in monthly_avg['Indicator'].unique():
+                indicator_data = monthly_avg[monthly_avg['Indicator'] == indicator].copy()
+                indicator_data['Inflation_Rate'] = indicator_data['CPI_Value'].pct_change() * 100
+                inflation_data.append(indicator_data)
+            
+            inflation_df = pd.concat(inflation_data)
+            inflation_df = inflation_df.dropna(subset=['Inflation_Rate'])
+            
+            # Create a date column for plotting
+            inflation_df['Period'] = inflation_df['Year'].astype(str) + '-' + (inflation_df['Month_Num'] + 1).astype(str).str.zfill(2)
+            
+            # Plot inflation rates
+            fig4 = px.line(
+                inflation_df,
+                x='Period',
+                y='Inflation_Rate',
+                color='Indicator',
+                title='Monthly Inflation Rates by Category',
+                labels={'Inflation_Rate': 'Monthly Inflation Rate (%)', 'Period': 'Time Period'},
+                template='plotly_white',
+                markers=True
+            )
+            
+            fig4.update_layout(
+                height=400,
+                legend_title_text='Categories',
+                hovermode='x unified',
+                xaxis_tickangle=-45
+            )
+            
+            st.plotly_chart(fig4, use_container_width=True)
+            
+            # Add insights about inflation volatility
+            inflation_volatility = inflation_df.groupby('Indicator')['Inflation_Rate'].std().sort_values(ascending=False)
+            most_volatile = inflation_volatility.index[0]
+            least_volatile = inflation_volatility.index[-1]
+            
+            st.markdown(f"""
+                <div class="insight-box">
+                    <strong>Inflation Volatility:</strong> {most_volatile} shows the highest inflation volatility 
+                    with a standard deviation of {inflation_volatility.iloc[0]:.2f}%, while {least_volatile} is the most stable 
+                    with a standard deviation of {inflation_volatility.iloc[-1]:.2f}%. High volatility indicates unpredictable price changes 
+                    that can impact consumer budgeting and economic planning.
+                </div>
+            """, unsafe_allow_html=True)
+        else:
+            st.warning("No data available with the selected filters.")
+                        
