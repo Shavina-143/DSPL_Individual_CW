@@ -18,6 +18,9 @@ st.set_page_config(
 # Add custom CSS
 st.markdown("""
     <style>
+    :root {
+    color-scheme: light;
+}
     .main-header {
         font-size: 36px !important;
         font-weight: bold;
