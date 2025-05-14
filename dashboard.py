@@ -142,3 +142,96 @@ if df is not None:
             yoy_change = ((current_avg_cpi - prev_avg_cpi) / prev_avg_cpi) * 100
         else:
             yoy_change = None
+    # TAB 1: OVERVIEW
+    with tab1:
+        # Key Metrics Row
+        st.markdown('<p class="sub-header">Key Inflation Metrics</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty:
+            metric_col1, metric_col2, metric_col3, metric_col4 = st.columns(4)
+            
+            # Latest CPI Value
+            with metric_col1:
+                st.markdown("""
+                    <div class="metric-card">
+                        <div class="metric-value">{:.2f}</div>
+                        <div class="metric-label">Latest Average CPI</div>
+                    </div>
+                """.format(current_avg_cpi), unsafe_allow_html=True)
+            
+            # YoY Change
+            with metric_col2:
+                if yoy_change is not None:
+                    color = "green" if yoy_change < 0 else "red"
+                    arrow = "↓" if yoy_change < 0 else "↑"
+                    st.markdown("""
+                        <div class="metric-card">
+                            <div class="metric-value" style="color: {};">{}{:.2f}%</div>
+                            <div class="metric-label">Year-over-Year Change</div>
+                        </div>
+                    """.format(color, arrow, abs(yoy_change)), unsafe_allow_html=True)
+                else:
+                    st.markdown("""
+                        <div class="metric-card">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Year-over-Year Change</div>
+                        </div>
+                    """, unsafe_allow_html=True)
+            
+            # Category with highest CPI
+            with metric_col3:
+                if not latest_data.empty:
+                    highest_item = latest_data.loc[latest_data['CPI_Value'].idxmax()]
+                    st.markdown("""
+                        <div class="metric-card">
+                            <div class="metric-value">{}</div>
+                            <div class="metric-label">Highest CPI Category</div>
+                        </div>
+                    """.format(highest_item['Indicator']), unsafe_allow_html=True)
+                else:
+                    st.markdown("""
+                        <div class="metric-card">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Highest CPI Category</div>
+                        </div>
+                    """, unsafe_allow_html=True)
+            
+            # Category with highest inflation
+            with metric_col4:
+                if not latest_data.empty and not previous_year_data.empty:
+                    # Calculate inflation by category
+                    inflation_data = []
+                    
+                    for item in latest_data['Indicator'].unique():
+                        latest_item_value = latest_data[latest_data['Indicator'] == item]['CPI_Value'].values[0]
+                        
+                        prev_item_data = previous_year_data[previous_year_data['Indicator'] == item]
+                        if not prev_item_data.empty:
+                            prev_item_value = prev_item_data['CPI_Value'].values[0]
+                            item_inflation = ((latest_item_value - prev_item_value) / prev_item_value) * 100
+                            inflation_data.append((item, item_inflation))
+                    
+                    if inflation_data:
+                        highest_inflation_item = max(inflation_data, key=lambda x: x[1])
+                        st.markdown("""
+                            <div class="metric-card">
+                                <div class="metric-value">{} ({:.2f}%)</div>
+                                <div class="metric-label">Highest Inflation Category</div>
+                            </div>
+                        """.format(highest_inflation_item[0], highest_inflation_item[1]), unsafe_allow_html=True)
+                    else:
+                        st.markdown("""
+                            <div class="metric-card">
+                                <div class="metric-value">N/A</div>
+                                <div class="metric-label">Highest Inflation Category</div>
+                            </div>
+                        """, unsafe_allow_html=True)
+                else:
+                    st.markdown("""
+                        <div class="metric-card">
+                            <div class="metric-value">N/A</div>
+                            <div class="metric-label">Highest Inflation Category</div>
+                        </div>
+                    """, unsafe_allow_html=True)
+
+                    
