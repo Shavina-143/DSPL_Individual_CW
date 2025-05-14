@@ -996,3 +996,32 @@ if not filtered_df.empty:
         st.warning("Not enough data points to calculate year-over-year changes.")
 else:
     st.warning("No data available with the selected filters.")
+
+    # Data Summary Table (shown on all tabs)
+with st.expander("View Data Summary"):
+    if not filtered_df.empty:
+        # Get statistics for the filtered dataset
+        summary_df = filtered_df.groupby('Indicator')['CPI_Value'].agg(['mean', 'min', 'max', 'std', 'count']).reset_index()
+        summary_df.columns = ['Item', 'Average CPI', 'Minimum CPI', 'Maximum CPI', 'Standard Deviation', 'Data Points']
+        
+        # Format to 2 decimal places
+        for col in ['Average CPI', 'Minimum CPI', 'Maximum CPI', 'Standard Deviation']:
+            summary_df[col] = summary_df[col].round(2)
+        
+        st.dataframe(summary_df, use_container_width=True, hide_index=True)
+    else:
+        st.warning("No data available with the selected filters.")
+
+# Show raw data (expandable)
+with st.expander("View Raw Data"):
+    st.dataframe(filtered_df, use_container_width=True)
+
+# Data download option
+if not filtered_df.empty:
+    csv = filtered_df.to_csv(index=False).encode('utf-8')
+    st.download_button(
+        label="Download Filtered Data as CSV",
+        data=csv,
+        file_name="sri_lanka_cpi_filtered_data.csv",
+        mime="text/csv",
+    )
