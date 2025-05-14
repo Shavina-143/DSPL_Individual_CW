@@ -843,3 +843,68 @@ if not filtered_df.empty:
         st.warning("Not enough data points to calculate volatility.")
 else:
     st.warning("No data available with the selected filters.")
+
+    # Extreme Value Analysis
+st.markdown('<p class="sub-header">Extreme Value Analysis</p>', unsafe_allow_html=True)
+
+if not filtered_df.empty:
+    # Find extreme values (outliers) in the data
+    # Calculate z-scores
+    z_score_df = filtered_df.copy()
+    z_score_df['z_score'] = (z_score_df['CPI_Value'] - z_score_df['CPI_Value'].mean()) / z_score_df['CPI_Value'].std()
+    
+    # Define outliers (z-score > 2 or < -2)
+    outliers = z_score_df[abs(z_score_df['z_score']) > 2].copy()
+    
+    if not outliers.empty:
+        # Add columns for highlighting purposes
+        outliers['Direction'] = np.where(outliers['z_score'] > 0, 'High', 'Low')
+        
+        # Sort by absolute z-score (most extreme first)
+        outliers = outliers.sort_values(by='z_score', key=abs, ascending=False)
+        
+        # Show outliers in a scatter plot
+        fig12 = px.scatter(
+            outliers,
+            x='Date',
+            y='CPI_Value',
+            color='Direction',
+            size=abs(outliers['z_score']),
+            hover_data=['Indicator', 'z_score'],
+            title='Extreme CPI Values (Outliers)',
+            labels={'CPI_Value': 'CPI Value', 'Date': 'Date'},
+            template='plotly_white',
+            color_discrete_map={'High': 'red', 'Low': 'blue'}
+        )
+        
+        fig12.update_layout(
+            height=400,
+            legend_title_text='Direction',
+            hovermode='closest'
+        )
+        
+        st.plotly_chart(fig12, use_container_width=True)
+        
+        # Display outlier details in a table
+        outlier_table = outliers[['Date', 'Indicator', 'CPI_Value', 'z_score', 'Direction']].head(10)
+        outlier_table['z_score'] = outlier_table['z_score'].round(2)
+        outlier_table['Date'] = outlier_table['Date'].dt.strftime('%Y-%m-%d')
+        
+        st.markdown('<p class="sub-header">Top 10 Most Extreme CPI Values</p>', unsafe_allow_html=True)
+        st.dataframe(outlier_table, use_container_width=True, hide_index=True)
+        
+        # Add insights about extreme values
+        outlier_categories = outliers['Indicator'].value_counts()
+        most_outliers_category = outlier_categories.idxmax()
+        
+        st.markdown(f"""
+            <div class="insight-box">
+                <strong>Extreme Value Analysis:</strong> {most_outliers_category} shows the highest number of outliers ({outlier_categories.max()}) 
+                in the dataset. Extreme values can indicate special events, market disruptions, policy changes, or data collection issues. 
+                Decision-makers should investigate these periods to understand the underlying causes and potential economic impacts.
+            </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.warning("No extreme values detected in the current dataset.")
+else:
+    st.warning("No data available with the selected filters.")
