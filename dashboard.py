@@ -764,3 +764,82 @@ if not filtered_df.empty:
         """, unsafe_allow_html=True)
 else:
     st.warning("No data available with the selected filters.")
+
+    # Volatility Analysis
+st.markdown('<p class="sub-header">Price Volatility Analysis</p>', unsafe_allow_html=True)
+
+if not filtered_df.empty:
+    # Calculate rolling standard deviation (volatility) for each indicator
+    volatility_data = []
+    
+    for indicator in filtered_df['Indicator'].unique():
+        indicator_data = filtered_df[filtered_df['Indicator'] == indicator].copy()
+        indicator_data = indicator_data.sort_values('Date')
+        
+        # Calculate rolling 3-period standard deviation
+        if len(indicator_data) >= 3:
+            indicator_data['Volatility'] = indicator_data['CPI_Value'].rolling(window=3).std()
+            volatility_data.append(indicator_data)
+    
+    volatility_df = pd.concat(volatility_data)
+    volatility_df = volatility_df.dropna(subset=['Volatility'])
+    
+    if not volatility_df.empty:
+        # Plot volatility over time
+        fig10 = px.line(
+            volatility_df,
+            x='Date',
+            y='Volatility',
+            color='Indicator',
+            title='Price Volatility Over Time (Rolling 3-Period Standard Deviation)',
+            labels={'Volatility': 'Volatility (Std Dev)', 'Date': 'Date'},
+            template='plotly_white'
+        )
+        
+        fig10.update_layout(
+            height=400,
+            legend_title_text='Categories',
+            hovermode='x unified'
+        )
+        
+        st.plotly_chart(fig10, use_container_width=True)
+        
+        # Calculate average volatility by indicator
+        avg_volatility = volatility_df.groupby('Indicator')['Volatility'].mean().sort_values(ascending=False).reset_index()
+        
+        # Plot average volatility by category
+        fig11 = px.bar(
+            avg_volatility,
+            x='Indicator',
+            y='Volatility',
+            title='Average Price Volatility by Category',
+            labels={'Volatility': 'Average Volatility', 'Indicator': 'Category'},
+            template='plotly_white',
+            color='Volatility',
+            color_continuous_scale=px.colors.sequential.Reds
+        )
+        
+        fig11.update_layout(
+            height=400,
+            coloraxis_showscale=False,
+            xaxis_tickangle=-45
+        )
+        
+        st.plotly_chart(fig11, use_container_width=True)
+        
+        # Add insights about volatility
+        most_volatile = avg_volatility['Indicator'].iloc[0]
+        least_volatile = avg_volatility['Indicator'].iloc[-1]
+        
+        st.markdown(f"""
+            <div class="insight-box">
+                <strong>Volatility Analysis:</strong> {most_volatile} shows the highest price volatility, 
+                suggesting less predictable price movements. This may indicate supply chain issues, seasonal availability, 
+                or market disruptions. In contrast, {least_volatile} shows the most stable prices, which may reflect 
+                more consistent supply, government price controls, or stable demand patterns.
+            </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.warning("Not enough data points to calculate volatility.")
+else:
+    st.warning("No data available with the selected filters.")
