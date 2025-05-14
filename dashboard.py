@@ -19,7 +19,7 @@ st.set_page_config(
 st.markdown("""
     <style>
     .main-header {
-        font-size: 40px;
+        font-size: 36px !important;
         font-weight: bold;
         color: #1E3D59;
         text-align: center;
