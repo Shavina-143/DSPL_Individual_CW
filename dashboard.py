@@ -555,4 +555,128 @@ if df is not None:
                 """, unsafe_allow_html=True)
         else:
             st.warning("Select at least two categories for correlation analysis.")
-                 
+        # Seasonal Decomposition
+        st.markdown('<p class="sub-header">Seasonal Decomposition Analysis</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty and len(selected_items) > 0:
+            # Select indicator for decomposition
+            decomp_indicator = st.selectbox(
+                "Select category for seasonal decomposition",
+                options=selected_items
+            )
+            
+            # Filter data for selected indicator
+            decomp_data = filtered_df[filtered_df['Indicator'] == decomp_indicator].copy()
+            
+            # Create a time series
+            decomp_data = decomp_data.sort_values('Date')
+            decomp_data.set_index('Date', inplace=True)
+            
+            # Resample to monthly frequency if needed
+            monthly_series = decomp_data['CPI_Value'].resample('M').mean()
+            
+            if len(monthly_series) >= 12:  # Need at least 12 months for seasonal decomposition
+                try:
+                    # Perform seasonal decomposition
+                    result = seasonal_decompose(monthly_series, model='additive', period=12)
+                    
+                    # Create figure with subplots
+                    fig6 = go.Figure()
+                    
+                    # Original series
+                    fig6.add_trace(go.Scatter(
+                        x=result.observed.index,
+                        y=result.observed.values,
+                        mode='lines',
+                        name='Observed',
+                        line=dict(color='blue')
+                    ))
+                    
+                    # Trend component
+                    fig6.add_trace(go.Scatter(
+                        x=result.trend.index,
+                        y=result.trend.values,
+                        mode='lines',
+                        name='Trend',
+                        line=dict(color='red')
+                    ))
+                    
+                    # Seasonal component
+                    fig6.add_trace(go.Scatter(
+                        x=result.seasonal.index,
+                        y=result.seasonal.values,
+                        mode='lines',
+                        name='Seasonal',
+                        line=dict(color='green')
+                    ))
+                    
+                    # Residual component
+                    fig6.add_trace(go.Scatter(
+                        x=result.resid.index,
+                        y=result.resid.values,
+                        mode='lines',
+                        name='Residual',
+                        line=dict(color='purple')
+                    ))
+                    
+                    fig6.update_layout(
+                        height=500,
+                        title=f'Seasonal Decomposition for {decomp_indicator}',
+                        xaxis_title='Date',
+                        yaxis_title='Value',
+                        legend_title='Component',
+                        hovermode='x unified',
+                        template='plotly_white'
+                    )
+                    
+                    st.plotly_chart(fig6, use_container_width=True)
+                    
+                    # Extract seasonal patterns
+                    seasonal_patterns = result.seasonal.groupby(result.seasonal.index.month).mean().reset_index()
+                    seasonal_patterns.columns = ['Month', 'Seasonal Effect']
+                    
+                    # Map month numbers to names
+                    month_names = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June',
+                                7: 'July', 8: 'August', 9: 'September', 10: 'October', 11: 'November', 12: 'December'}
+                    seasonal_patterns['Month_Name'] = seasonal_patterns['Month'].map(month_names)
+                    
+                    # Plot seasonal patterns
+                    fig7 = px.bar(
+                        seasonal_patterns,
+                        x='Month_Name',
+                        y='Seasonal Effect',
+                        title=f'Seasonal Effects by Month for {decomp_indicator}',
+                        labels={'Seasonal Effect': 'Effect on CPI', 'Month_Name': 'Month'},
+                        template='plotly_white',
+                        color='Seasonal Effect',
+                        color_continuous_scale=px.colors.diverging.RdBu_r
+                    )
+                    
+                    # Sort months in correct order
+                    fig7.update_layout(
+                        height=400,
+                        xaxis={'categoryorder':'array', 'categoryarray': list(month_names.values())},
+                        coloraxis_showscale=False
+                    )
+                    
+                    st.plotly_chart(fig7, use_container_width=True)
+                    
+                    # Add insights about seasonality
+                    max_effect_month = seasonal_patterns.loc[seasonal_patterns['Seasonal Effect'].idxmax(), 'Month_Name']
+                    min_effect_month = seasonal_patterns.loc[seasonal_patterns['Seasonal Effect'].idxmin(), 'Month_Name']
+                    
+                    st.markdown(f"""
+                        <div class="insight-box">
+                            <strong>Seasonal Patterns:</strong> For {decomp_indicator}, prices tend to be higher in {max_effect_month} 
+                            and lower in {min_effect_month}. This seasonal pattern might be related to supply and demand factors, 
+                            agricultural cycles, or cultural events that affect consumption patterns in Sri Lanka.
+                        </div>
+                    """, unsafe_allow_html=True)
+                    
+                except Exception as e:
+                    st.error(f"Error in seasonal decomposition: {e}")
+            else:
+                st.warning("Not enough data points for seasonal decomposition. Need at least 12 months of data.")
+        else:
+            st.warning("No data available with the selected filters.")
+             
