@@ -233,5 +233,60 @@ if df is not None:
                             <div class="metric-label">Highest Inflation Category</div>
                         </div>
                     """, unsafe_allow_html=True)
+        
+        # Main Trend Chart - REPLACED WITH STACKED AREA CHART
+        st.markdown('<p class="sub-header">CPI Trends Over Time</p>', unsafe_allow_html=True)
 
+        if not filtered_df.empty:
+            # Create a pivot table with time series data for area chart
+            # Group by date and indicator
+            pivot_data = filtered_df.pivot_table(
+                index='Date',
+                columns='Indicator',
+                values='CPI_Value',
+                aggfunc='mean'
+            ).reset_index()
+            
+            # Create the stacked area chart
+            fig1 = go.Figure()
+            
+            # Get a list of all indicators and assign colors
+            all_indicators = filtered_df['Indicator'].unique()
+            all_colors = px.colors.qualitative.Bold[:len(all_indicators)]
+            
+            # Add traces for each indicator
+            for i, indicator in enumerate(all_indicators):
+                fig1.add_trace(
+                    go.Scatter(
+                        x=pivot_data['Date'],
+                        y=pivot_data[indicator],
+                        name=indicator,
+                        mode='lines',
+                        line=dict(width=0.5, color=all_colors[i % len(all_colors)]),
+                        stackgroup='one',  # This creates the stacked area effect
+                        hovertemplate='%{x}<br>%{y:.2f}',
+                    )
+                )
+            
+            # Update layout
+            fig1.update_layout(
+                height=500,
+                title_text="Stacked Area Chart of CPI Trends Over Time",
+                xaxis_title="Date",
+                yaxis_title="CPI Value",
+                legend_title="Categories",
+                hovermode="x unified",
+                template="plotly_white",
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=1.02,
+                    xanchor="right",
+                    x=1
+                )
+            )
+            
+            # Display the figure
+            st.plotly_chart(fig1, use_container_width=True)
+            
                     
