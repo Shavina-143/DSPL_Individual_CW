@@ -497,4 +497,62 @@ if df is not None:
             """, unsafe_allow_html=True)
         else:
             st.warning("No data available with the selected filters.")
-                        
+
+                # Correlation Analysis
+        st.markdown('<p class="sub-header">Category Correlation Analysis</p>', unsafe_allow_html=True)
+        
+        if not filtered_df.empty and len(selected_items) > 1:
+            # Create pivot table for correlation analysis
+            pivot_df = filtered_df.pivot_table(
+                index=['Year', 'Month'], 
+                columns='Indicator', 
+                values='CPI_Value',
+                aggfunc='mean'
+            ).reset_index()
+            
+            # Calculate correlation matrix
+            corr_matrix = pivot_df.drop(['Year', 'Month'], axis=1).corr()
+            
+            # Plot correlation heatmap
+            fig5 = px.imshow(
+                corr_matrix,
+                labels=dict(color="Correlation"),
+                x=corr_matrix.columns,
+                y=corr_matrix.columns,
+                color_continuous_scale='RdBu_r',
+                zmin=-1,
+                zmax=1,
+                title='Correlation Between Categories'
+            )
+            
+            fig5.update_layout(
+                height=500,
+                xaxis_tickangle=-45
+            )
+            
+            st.plotly_chart(fig5, use_container_width=True)
+            
+            # Find highest correlations
+            corr_pairs = []
+            for i in range(len(corr_matrix.columns)):
+                for j in range(i+1, len(corr_matrix.columns)):
+                    corr_pairs.append((corr_matrix.columns[i], corr_matrix.columns[j], corr_matrix.iloc[i, j]))
+            
+            # Sort by absolute correlation value
+            corr_pairs.sort(key=lambda x: abs(x[2]), reverse=True)
+            
+            if corr_pairs:
+                highest_corr = corr_pairs[0]
+                lowest_corr = min(corr_pairs, key=lambda x: abs(x[2]))
+                
+                st.markdown(f"""
+                    <div class="insight-box">
+                        <strong>Category Relationships:</strong> The strongest relationship is between {highest_corr[0]} and {highest_corr[1]} 
+                        with a correlation of {highest_corr[2]:.2f}, suggesting these categories tend to move together. 
+                        In contrast, {lowest_corr[0]} and {lowest_corr[1]} show the weakest relationship 
+                        with a correlation of {lowest_corr[2]:.2f}.
+                    </div>
+                """, unsafe_allow_html=True)
+        else:
+            st.warning("Select at least two categories for correlation analysis.")
+                 
