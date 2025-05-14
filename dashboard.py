@@ -908,3 +908,91 @@ if not filtered_df.empty:
         st.warning("No extreme values detected in the current dataset.")
 else:
     st.warning("No data available with the selected filters.")
+
+    # Policy Impact Analysis
+st.markdown('<p class="sub-header">Potential Policy Impact Analysis</p>', unsafe_allow_html=True)
+
+if not filtered_df.empty:
+    # Calculate year-over-year changes for each indicator
+    yoy_changes = []
+    
+    for indicator in filtered_df['Indicator'].unique():
+        indicator_data = filtered_df[filtered_df['Indicator'] == indicator].copy()
+        
+        # Group by year
+        yearly_avg = indicator_data.groupby('Year')['CPI_Value'].mean().reset_index()
+        
+        # Calculate YoY changes
+        yearly_avg['YoY_Change'] = yearly_avg['CPI_Value'].pct_change() * 100
+        yearly_avg['Indicator'] = indicator
+        
+        yoy_changes.append(yearly_avg)
+    
+    yoy_df = pd.concat(yoy_changes)
+    yoy_df = yoy_df.dropna(subset=['YoY_Change'])
+    
+    if not yoy_df.empty:
+        # Create heatmap of YoY changes
+        pivot_yoy = yoy_df.pivot(index='Year', columns='Indicator', values='YoY_Change')
+        
+        fig13 = px.imshow(
+            pivot_yoy,
+            labels=dict(x="Category", y="Year", color="YoY Change (%)"),
+            x=pivot_yoy.columns,
+            y=pivot_yoy.index,
+            aspect="auto",
+            title='Year-over-Year CPI Changes by Category',
+            color_continuous_scale='RdBu_r',
+            zmin=-10,  # Set reasonable limits for better color distribution
+            zmax=10
+        )
+        fig13.update_layout(height=400, xaxis_tickangle=-45)
+        
+        st.plotly_chart(fig13, use_container_width=True)
+        
+        # Calculate average YoY change by category
+        avg_yoy = yoy_df.groupby('Indicator')['YoY_Change'].mean().sort_values(ascending=False).reset_index()
+        
+        # Plot average annual inflation by category
+        fig14 = px.bar(
+            avg_yoy,
+            x='Indicator',
+            y='YoY_Change',
+            title='Average Annual Inflation by Category',
+            labels={'YoY_Change': 'Avg. Annual Change (%)', 'Indicator': 'Category'},
+            template='plotly_white',
+            color='YoY_Change',
+            color_continuous_scale='RdBu_r',
+            color_continuous_midpoint=0
+        )
+        
+        fig14.update_layout(
+            height=400,
+            xaxis_tickangle=-45
+        )
+        
+        st.plotly_chart(fig14, use_container_width=True)
+        
+        # Policy recommendations based on data
+        highest_inflation = avg_yoy['Indicator'].iloc[0]
+        lowest_inflation = avg_yoy['Indicator'].iloc[-1]
+        
+        st.markdown(f"""
+            <div class="insight-box">
+                <strong>Policy Implications:</strong><br>
+                <ul>
+                    <li><strong>High Inflation Areas:</strong> {highest_inflation} shows the highest average annual inflation 
+                    ({avg_yoy['YoY_Change'].iloc[0]:.2f}%). Policymakers might consider supply-side interventions, targeted subsidies, 
+                    or import policies to address price pressures in this category.</li>
+                    <li><strong>Low Inflation/Deflation Areas:</strong> {lowest_inflation} shows the lowest inflation rate 
+                    ({avg_yoy['YoY_Change'].iloc[-1]:.2f}%). This could indicate oversupply, decreasing demand, or effective price controls. 
+                    If this rate is negative, it might warrant economic stimulus in this sector.</li>
+                    <li><strong>Targeted Interventions:</strong> The heatmap highlights years and categories with exceptional inflation, 
+                    suggesting where and when policy interventions might have been needed or were effective.</li>
+                </ul>
+            </div>
+        """, unsafe_allow_html=True)
+    else:
+        st.warning("Not enough data points to calculate year-over-year changes.")
+else:
+    st.warning("No data available with the selected filters.")
