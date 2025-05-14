@@ -328,5 +328,33 @@ if df is not None:
             # Display the alternative figure in an expander
             with st.expander("View Line Chart"):
                 st.plotly_chart(fig1_line, use_container_width=True)
+
+                # Display the alternative figure in an expander
+            with st.expander("View Line Chart"):
+                st.plotly_chart(fig1_line, use_container_width=True)
+            
+            # Add insights about the trends
+            if not filtered_df.empty:
+                # Calculate overall trend
+                latest_year_data = filtered_df[filtered_df['Year'] == max_year]
+                earliest_year_data = filtered_df[filtered_df['Year'] == min_year]
                 
+                if not latest_year_data.empty and not earliest_year_data.empty:
+                    avg_latest = latest_year_data['CPI_Value'].mean()
+                    avg_earliest = earliest_year_data['CPI_Value'].mean()
+                    
+                    overall_change = ((avg_latest - avg_earliest) / avg_earliest) * 100
+                    
+                    trend_description = "increasing" if overall_change > 0 else "decreasing"
+                    
+                    st.markdown(f"""
+                        <div class="insight-box">
+                            <strong>Key Insight:</strong> The CPI values show an overall {trend_description} trend of {abs(overall_change):.2f}% 
+                            from {min_year} to {max_year}. This indicates that the cost of living in Sri Lanka has 
+                            {"increased" if overall_change > 0 else "decreased"} over this period.
+                        </div>
+                    """, unsafe_allow_html=True)
+        else:
+            st.warning("No data available with the selected filters.")
+            
                     
